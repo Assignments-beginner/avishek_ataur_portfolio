@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App bg-primary">
+      <div className="App-header border border-5 border-primary">
         <img src={logo} className="App-logo" alt="logo" />
-        
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -15,7 +16,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
     </div>
   );
 }
