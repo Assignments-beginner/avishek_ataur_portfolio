@@ -22,6 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-radius: 50px;
+  width: 90%;
+  margin: 40px auto;
 }
 
 .App-link {
