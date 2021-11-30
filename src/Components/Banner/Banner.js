@@ -4,6 +4,11 @@ import "../Banner/Banner.css";
 import profile from "../../Images/Profile.jpg";
 
 const Banner = () => {
+  const resume = () => {
+    const url =
+      "https://drive.google.com/file/d/1VtNwXxNhyV4xhHvTVh6HI8UcaFaWDFY-/view?usp=sharing";
+    window.open(url, "_blank");
+  };
   return (
     <div>
       <Container className="py-5">
@@ -32,7 +37,11 @@ const Banner = () => {
               seeking an opportunity to extend my full stack web development
               knowledge specially on MERN stack projects.
             </p>
-            <Button className="mt-3" variant="outline-secondary">
+            <Button
+              onClick={resume}
+              className="mt-3"
+              variant="outline-secondary"
+            >
               Resume
             </Button>
           </Col>
