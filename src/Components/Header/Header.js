@@ -52,6 +52,14 @@ const Header = () => {
               <NavLink
                 activeClassName="navs-active"
                 className="navs me-3 text-decoration-none"
+                to="/blogs"
+              >
+                Blogs
+              </NavLink>
+
+              <NavLink
+                activeClassName="navs-active"
+                className="navs me-3 text-decoration-none"
                 to="/contactus"
               >
                 Contact
