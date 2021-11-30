@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
 
                 <Form.Control
-                  className="p-2"
+                  className="mb-3 p-2"
                   as="textarea"
                   placeholder="Leave a comment here"
                 />
