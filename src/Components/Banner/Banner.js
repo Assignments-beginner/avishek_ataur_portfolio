@@ -7,13 +7,13 @@ const Banner = () => {
   return (
     <div>
       <Container className="py-5">
-        <Row>
-          <Col sm={4}>
+        <Row className="align-items-center">
+          <Col sm={6}>
             <div>
               <img className="profile-img" src={profile} alt="" />
             </div>
           </Col>
-          <Col sm={8} className="text-dark">
+          <Col sm={6} className="text-dark">
             <h1 className="text-uppercase">Junior Web Developer</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
