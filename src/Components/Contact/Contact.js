@@ -3,21 +3,63 @@ import { Col, Container, Form, Row, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="pt-3 pb-5">
-      <h2 className="text-center text-dark">Contact Me</h2>
+    <div className="pt-3 pb-5 text-dark">
+      <h2 className="text-center ">Contact Me</h2>
       <Container>
         <Row>
-          <Col sm={8}>
+          <Col lg={6}>
             <div>
               <Form action="https://formsubmit.co/your@email.com" method="POST">
-              <Form.Control type="email" placeholder="Enter email" required/>
-                
-                <Button type="submit">Send</Button>
+                <div className="d-flex mb-3">
+                  <Form.Control
+                    className="me-1 p-2"
+                    type="name"
+                    placeholder="First Name"
+                    required
+                  />
+                  <Form.Control
+                    className="ms-1 p-2"
+                    type="name"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+
+                <div className="d-flex mb-3">
+                  <Form.Control
+                    className="me-1 p-2"
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <Form.Control
+                    className="ms-1 p-2"
+                    type="text"
+                    placeholder="Phone"
+                    required
+                  />
+                </div>
+
+                <Form.Control
+                  className="p-2"
+                  as="textarea"
+                  placeholder="Leave a comment here"
+                />
+
+                <Button
+                  className="mb-3"
+                  variant="outline-secondary"
+                  type="submit"
+                >
+                  Send
+                </Button>
               </Form>
             </div>
           </Col>
-          <Col sm={4}>
-            <div>Follow Me</div>
+          <Col lg={6}>
+            <div>
+              <h4>Follow Me</h4>
+            </div>
           </Col>
         </Row>
       </Container>
