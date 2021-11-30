@@ -1,11 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App bg-primary">
-      <div className="App-header border border-5 border-primary">
+    <div className="App p-4">
+      <div className="App-header bg-white">
         <img src={logo} className="App-logo" alt="logo" />
 
         <a

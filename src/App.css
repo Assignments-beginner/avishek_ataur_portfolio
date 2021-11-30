@@ -1,7 +1,6 @@
 .App {
-
+  background-color: whitesmoke;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,8 +13,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
   color: white;
+  /* border: 40px solid gray;   */
   border-radius: 35px;
 }
 
