@@ -17,12 +17,24 @@ const Banner = () => {
             <h4 className="text-uppercase">Junior Web Developer</h4>
             <h1>Avishek Ataur</h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              nulla voluptatibus voluptatem nisi nam molestiae quia cumque,
-              voluptate repellendus consequuntur odit harum, porro voluptatum
-              non vel dolor, inventore sit. Temporibus.
+              Junior Web Developer with five plus months of experience from{" "}
+              <strong>
+                <a
+                  className="text-dark text-decoration-none"
+                  href="https://www.programming-hero.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Programming Hero
+                </a>
+              </strong>{" "}
+              which is one of the best web development course of Bangladesh,
+              seeking an opportunity to extend my full stack web development
+              knowledge specially on MERN stack projects.
             </p>
-            <Button className="mt-3" variant="outline-secondary">Download Resume</Button>
+            <Button className="mt-3" variant="outline-secondary">
+              Resume
+            </Button>
           </Col>
         </Row>
       </Container>
