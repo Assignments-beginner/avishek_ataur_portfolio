@@ -4,7 +4,7 @@ import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <div className="App p-4">
+    <div className="App">
       <div className="App-header bg-white">
         <Header/>
         <img src={logo} className="App-logo" alt="logo" />

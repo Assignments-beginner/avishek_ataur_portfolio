@@ -2,3 +2,16 @@
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
+
+.nav-font {
+    font-size: 15px;
+  }
+  .navs {
+    color: #343a40;
+  }
+  .navs:hover {
+    color: lightskyblue;
+  }
+  .navs-active {
+    color: lightskyblue;
+  }
