@@ -19,7 +19,11 @@ const Banner = () => {
             </div>
           </Col>
           <Col sm={7} className="text-dark">
-            <h4 className="text-uppercase">Junior Web Developer</h4>
+            <div className="wrapper">
+              <div className="typing-demo">
+                <h4 className="text-uppercase">Junior Web Developer</h4>
+              </div>
+            </div>
             <h1>Avishek Ataur</h1>
             <p>
               Junior Web Developer with five plus months of experience from{" "}
