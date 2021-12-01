@@ -115,6 +115,18 @@ const Contact = () => {
                 </a>
               </div>
             </div>
+            <div className="pt-4">
+              {/* Phone */}
+              <div className="m-4 d-flex justify-content-center align-items-center">
+                <i class="fs-4 fas fa-phone-alt text-dark"></i>&nbsp; &nbsp;
+                <span className="text-dark fs-5">01782869159</span>
+              </div>
+              {/* email */}
+              <div className="m-4 d-flex justify-content-center align-items-center">
+                <i class="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
+                <span className="text-dark fs-5">avishekataur@gmail.com</span>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
