@@ -87,11 +87,32 @@ const Contact = () => {
           </Col>
           <Col lg={6}>
             <div>
-              <h3 className="text-center">Follow Me</h3>
+              <h3 className="text-center mb-3">Follow Me</h3>
               <div className="text-center">
-                <i className="m-2 fs-3 fab fa-facebook"></i>
-                <i className="m-2 fs-3 fab fa-youtube"></i>
-                <i className="m-2 fs-3 fab fa-linkedin"></i>
+                <a
+                  className="m-2 text-secondary text-decoration"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/avishek.ataur/"
+                >
+                  <i className="fs-3 fab fa-facebook"></i>
+                </a>
+                <a
+                  className="m-2 text-secondary text-decoration"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/avishekataur"
+                >
+                  <i className="fs-3 fab fa-github"></i>
+                </a>
+                <a
+                  className="m-2 text-secondary text-decoration"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/avishek-ataur-70435019a/"
+                >
+                  <i className="fs-3 fab fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </Col>
