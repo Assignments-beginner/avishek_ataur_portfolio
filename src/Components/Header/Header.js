@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, NavDropdown, NavLink } from "react-bootstrap";
+import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
 import "../Header/Header.css";
 import logo from "../../Images/logo.png";
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/aboutme"
               >
@@ -26,7 +26,7 @@ const Header = () => {
               </NavLink>
 
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/skills"
               >
@@ -34,7 +34,7 @@ const Header = () => {
               </NavLink>
 
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/projects"
               >
@@ -42,7 +42,7 @@ const Header = () => {
               </NavLink>
 
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/qualifications"
               >
@@ -50,7 +50,7 @@ const Header = () => {
               </NavLink>
 
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/blogs"
               >
@@ -58,7 +58,7 @@ const Header = () => {
               </NavLink>
 
               <NavLink
-                activeClassName="navs-active"
+                activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
                 to="/contactus"
               >
