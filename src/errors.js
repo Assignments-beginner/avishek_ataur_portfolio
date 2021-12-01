@@ -1,6 +1,5 @@
 /* 
-https://www.npmjs.com/package/react-animated-text-builders
-https://www.codingnepalweb.com/text-typing-animation-using-only-html-css/
+https://react-slick.neostack.com/docs/example/custom-paging
 
 emailJS
 problem :
