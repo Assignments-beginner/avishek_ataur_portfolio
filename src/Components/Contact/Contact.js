@@ -87,7 +87,12 @@ const Contact = () => {
           </Col>
           <Col lg={6}>
             <div>
-              <h4 className="text-center">Follow Me</h4>
+              <h3 className="text-center">Follow Me</h3>
+              <div className="text-center">
+                <i className="m-2 fs-3 fab fa-facebook"></i>
+                <i className="m-2 fs-3 fab fa-youtube"></i>
+                <i className="m-2 fs-3 fab fa-linkedin"></i>
+              </div>
             </div>
           </Col>
         </Row>
