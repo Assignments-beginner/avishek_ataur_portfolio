@@ -25,9 +25,11 @@ const Banner = () => {
               </div>
             </div>
             <h1>Avishek Ataur</h1>
-            <p>
-              Junior Web Developer with five plus months of experience from{" "}
-              <strong>
+            <p className="mt-4 pt-2">
+              <strong>Hello! Everyone,</strong> <br />
+              I'm a Junior Web Developer with five plus months of experience
+              from a complete web development course of &nbsp;
+              <strong> 
                 <a
                   className="text-dark text-decoration-none"
                   href="https://www.programming-hero.com/"
@@ -37,7 +39,7 @@ const Banner = () => {
                   Programming Hero
                 </a>
               </strong>{" "}
-              which is one of the best web development course of Bangladesh,
+              which is one of the best program learning platform of Bangladesh. I'm
               seeking an opportunity to extend my full stack web development
               knowledge specially on MERN stack projects.
             </p>

@@ -7,7 +7,7 @@ const About = () => {
       <Container className="text-dark text-center">
         <h2>About Me</h2>
         <p className="pt-4 px-5">
-          Hi there, I'm Avishek. As you may have noticed from my resume. My
+          Hi there, I'm Avishek. As you may have already noticed from my resume. So, My
           superior focus and attention to detailed combined with my proper
           knowledge of Javascript, ES6, React, Firebase, Node JS, Express JS,
           MongoDB makes me an exceptional choice for junior web developer. In my

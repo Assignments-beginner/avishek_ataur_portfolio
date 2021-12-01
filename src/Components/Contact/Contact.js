@@ -75,11 +75,7 @@ const Contact = () => {
                   placeholder="Leave a comment here"
                 />
 
-                <Button
-                  className="mb-3"
-                  variant="outline-secondary"
-                  type="submit"
-                >
+                <Button className="mb-3" variant="secondary" type="submit">
                   Send
                 </Button>
               </Form>
