@@ -47,7 +47,7 @@ const Contact = () => {
                   <Form.Control
                     className="me-1 p-2"
                     type="email"
-                    name="user.email"
+                    name="email"
                     placeholder="Email"
                     required
                   />
