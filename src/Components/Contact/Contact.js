@@ -1,7 +1,23 @@
 import React from "react";
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "first-porfolio",
+        "portfolio-template",
+        e.target,
+        "user_wFVXijDSM0kcmETI1oT1V"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+    e.target.reset();
+  };
   return (
     <div className="pt-3 pb-5 text-dark">
       <h2 className="text-center pb-2">Contact Me</h2>
@@ -9,20 +25,19 @@ const Contact = () => {
         <Row>
           <Col lg={6}>
             <div>
-              <Form
-                action="https://formsubmit.co/avishekataur@gmail.com"
-                method="POST"
-              >
+              <Form onSubmit={sendEmail}>
                 <div className="d-flex mb-3">
                   <Form.Control
                     className="me-1 p-2"
                     type="name"
+                    name="firstname"
                     placeholder="First Name"
                     required
                   />
                   <Form.Control
                     className="ms-1 p-2"
                     type="name"
+                    name="lastname"
                     placeholder="Last Name"
                     required
                   />
@@ -32,12 +47,14 @@ const Contact = () => {
                   <Form.Control
                     className="me-1 p-2"
                     type="email"
+                    name="user.email"
                     placeholder="Email"
                     required
                   />
                   <Form.Control
                     className="ms-1 p-2"
                     type="text"
+                    name="phone"
                     placeholder="Phone"
                     required
                   />
@@ -46,6 +63,7 @@ const Contact = () => {
                 <Form.Control
                   className="mb-3 p-2"
                   as="textarea"
+                  name="message"
                   placeholder="Leave a comment here"
                 />
 
