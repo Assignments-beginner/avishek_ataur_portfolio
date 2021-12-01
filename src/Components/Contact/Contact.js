@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -14,9 +15,16 @@ const Contact = () => {
       )
       .then((res) => {
         console.log(res);
+        e.target.reset();
+        Swal.fire({
+          position: "top-center",
+          icon: "success",
+          title: "Thank You!",
+          showConfirmButton: false,
+          timer: 2500,
+        });
       })
       .catch((err) => console.log(err));
-    e.target.reset();
   };
   return (
     <div className="pt-3 pb-5 text-dark">
