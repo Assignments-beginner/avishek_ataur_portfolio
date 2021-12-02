@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <div className="App-header bg-white">
-        <Header />
-        <Banner />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/aboutme" element={<About />}></Route>
+          </Routes>
+        </Router>
       </div>
     </div>
   );

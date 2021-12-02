@@ -12,7 +12,7 @@ import firebase from "../../Images/skill_icons/firebase.png";
 
 const Skills = () => {
   return (
-    <div className="pt-3 pb-5">
+    <div id="skills" className="pt-3 pb-5">
       <Container className="text-dark">
         <h2 className="text-center pb-2">Skills</h2>
         <Row className="align-items-center">

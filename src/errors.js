@@ -6,6 +6,7 @@ animation-iteration-count: infinite;
 
 Dark Color Code
 #343a40
+npm install react-router-hash-link
 
 emailJS
 problem :

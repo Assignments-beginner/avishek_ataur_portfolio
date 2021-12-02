@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 import "../Header/Header.css";
 import logo from "../../Images/logo.png";
 const Header = () => {
@@ -18,49 +19,55 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme"
+                to="/aboutme#aboutme"
               >
                 About Me
               </NavLink>
 
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/skills"
+                to="/aboutme#skills"
               >
                 Skills
               </NavLink>
 
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/projects"
+                to="/aboutme#projects"
               >
                 Projects
               </NavLink>
 
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/qualifications"
+                to="/aboutme#qualifications"
               >
                 Qualifications
               </NavLink>
 
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/blogs"
+                to="/aboutme#blogs"
               >
                 Blogs
               </NavLink>
 
               <NavLink
+                as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/contactus"
+                to="/aboutme#contactme"
               >
                 Contact
               </NavLink>

@@ -27,7 +27,7 @@ const Contact = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div className="pt-3 pb-5 text-dark">
+    <div id="contactme" className="pt-3 pb-5 text-dark">
       <h2 className="text-center pb-2">Contact Me</h2>
       <Container className="p-5">
         <Row>
