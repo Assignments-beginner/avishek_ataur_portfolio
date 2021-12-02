@@ -21,7 +21,9 @@ const Projects = () => {
   return (
     <div className="pb-5 px-5 mx-5">
       <h2 className="text-center text-dark pb-2">Personal Projects</h2>
-      <h4 className="text-center text-dark">Not Completed Yet <span className="display-4">😔</span></h4>
+      <h4 className="text-center text-dark">
+        Not Completed Yet <span className="display-4">😔</span>
+      </h4>
       {/* <Slider className="px-5 border border-dark" {...settings}>
         <div>
           <img src={abstract01} alt="" />

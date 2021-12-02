@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "../Banner/Banner.css";
 import profile from "../../Images/Profile.jpg";
 
 const Banner = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+    });
+  }, []);
   const resume = () => {
     const url =
       "https://drive.google.com/file/d/1VtNwXxNhyV4xhHvTVh6HI8UcaFaWDFY-/view?usp=sharing";
@@ -19,17 +28,19 @@ const Banner = () => {
             </div>
           </Col>
           <Col sm={7} className="text-dark">
-            <div className="wrapper">
-              <div className="typing-demo">
-                <h4 className="text-uppercase">Junior Web Developer</h4>
-              </div>
+            <div class="text">
+              <h4 className="text-uppercase">Junior Web Developer</h4>
+              <div class="fadingEffect"></div>
             </div>
-            <h1>Avishek Ataur</h1>
+
+            <div data-aos="fade-right" data-aos-mirror="true">
+              <h1>Avishek Ataur</h1>
+            </div>
             <p className="mt-4 pt-2">
               <strong>Hello! Everyone,</strong> <br />
               I'm a Junior Web Developer with five plus months of experience
               from a complete web development course of &nbsp;
-              <strong> 
+              <strong>
                 <a
                   className="text-dark text-decoration-none"
                   href="https://www.programming-hero.com/"
@@ -39,8 +50,8 @@ const Banner = () => {
                   Programming Hero
                 </a>
               </strong>{" "}
-              which is one of the best program learning platform of Bangladesh. I'm
-              seeking an opportunity to extend my full stack web development
+              which is one of the best program learning platform of Bangladesh.
+              I'm seeking an opportunity to extend my full stack web development
               knowledge specially on MERN stack projects.
             </p>
             <Button
