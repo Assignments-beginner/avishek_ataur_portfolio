@@ -1,0 +1,17 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .slide img {
+  height: 550px;
+  width: 600px;
+}
+
+.control-dots {
+    display: none;
+}
+
+.control-arrow {
+    display: none;
+}
