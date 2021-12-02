@@ -1,14 +1,14 @@
 import React from "react";
-import Slider from "react-slick";
-import { baseUrl } from "../../baseUrl";
+// import Slider from "react-slick";
+// import { baseUrl } from "../../baseUrl";
 
 const Projects = () => {
-  const settings = {
+  /* const settings = {
     customPaging: function (i) {
       return (
-        <a>
-          <img src={`${baseUrl}/abstract0${i + 1}.jpg`} />
-        </a>
+        <div>
+          <img src={`${baseUrl}/abstract0${i + 1}.jpg`} alt="" />
+        </div>
       );
     },
     dots: true,
@@ -17,21 +17,22 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-  };
+  }; */
   return (
-    <div className="pb-5">
+    <div className="pb-5 px-5 mx-5">
       <h2 className="text-center text-dark pb-2">Personal Projects</h2>
-      <Slider {...settings}>
+      <h4 className="text-center text-dark">Not Completed Yet <span className="display-4">😔</span></h4>
+      {/* <Slider className="px-5 border border-dark" {...settings}>
         <div>
-          <img src={baseUrl + "/abstract01.jpg"} />
+          <img src={abstract01} alt="" />
         </div>
         <div>
-          <img src={baseUrl + "/abstract02.jpg"} />
+          <img src={baseUrl + "/abstract02.jpg"} alt="" />
         </div>
         <div>
-          <img src={baseUrl + "/abstract03.jpg"} />
+          <img src={baseUrl + "/abstract03.jpg"} alt="" />
         </div>
-      </Slider>
+      </Slider> */}
     </div>
   );
 };
