@@ -60,7 +60,7 @@ const Header = () => {
                 className="navs me-3 text-decoration-none"
                 to="/blogs"
               >
-                Blogs
+                Blog
               </NavLink>
 
               <NavLink
