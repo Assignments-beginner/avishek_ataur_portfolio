@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
+import "../Contact/Contact.css";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -114,7 +115,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 mb-5">
               {/* Phone */}
               <div
                 data-aos="fade-left"
@@ -135,6 +136,10 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <hr className="new mt-5" />
+      <p className="mt-2 text-secondary text-center text-uppercase">
+        Avishek Ataur
+      </p>
     </div>
   );
 };
