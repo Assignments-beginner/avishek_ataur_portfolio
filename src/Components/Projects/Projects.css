@@ -3,8 +3,12 @@
   justify-content: center;
 }
 
+.carousel .slide {
+  height: 500px;
+}
+
 .carousel .slide img {
-  height: 550px;
+  height: 350px;
   width: 600px;
 }
 
