@@ -7,7 +7,7 @@ import img1 from "../../Images/slides/abstract01.jpg";
 import img2 from "../../Images/slides/abstract02.jpg";
 import img3 from "../../Images/slides/abstract03.jpg";
 import "../Projects/Projects.css";
-import { Button } from "react-bootstrap";
+import { Button, ButtonGroup } from "react-bootstrap";
 
 const Projects = () => {
   useEffect(() => {
@@ -27,13 +27,21 @@ const Projects = () => {
       <Carousel swipeable useKeyboardArrows infiniteLoop autoPlay>
         <div className="d-grid justify-content-center">
           <img src={img1} alt="" />
-          <span className="Legend text-dark">Details</span>
+          <Button className="Legend" variant="danger" size="sm">
+            Details
+          </Button>
         </div>
-        <div>
+        <div className="d-grid justify-content-center">
           <img src={img2} alt="" />
+          <Button className="Legend" variant="danger" size="sm">
+            Details
+          </Button>
         </div>
-        <div>
+        <div className="d-grid justify-content-center">
           <img src={img3} alt="" />
+          <Button className="Legend" variant="danger" size="sm">
+            Details
+          </Button>
         </div>
       </Carousel>
     </div>
