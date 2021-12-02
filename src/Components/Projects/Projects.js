@@ -28,10 +28,20 @@ const Projects = () => {
     window.open(url, "_blank");
   };
 
+  //////////////////////////////// HealthCare Website ///////////////////////////////
+  const healthClient = () => {
+    const url = "https://github.com/Assignments-beginner/heal_clinic";
+    window.open(url, "_blank");
+  };
+  const healthLive = () => {
+    const url = "https://health-care-999.netlify.app/";
+    window.open(url, "_blank");
+  };
+
   return (
     <div id="projects" className="pb-5 px-5 mx-5">
       <div data-aos="fade-left">
-        <h2 className="text-center text-dark pb-5 mb-4">Personal Projects</h2>
+        <h2 className="text-center text-dark pb-5">Personal Projects</h2>
       </div>
 
       {/* <h4 className="text-center text-dark">
@@ -70,13 +80,8 @@ const Projects = () => {
           <div className="Legend mt-3 text-dark">
             <h4 className="text-uppercase">Simple Authentication Project</h4>
             <p>Health Care Website</p>
-            <Button variant="outline-secondary w-25" size="sm">
-              Clinent Site Code
-            </Button>
-            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
-            <Button variant="outline-secondary w-25" size="sm">
-              Server Code
-            </Button>
+            <Button onClick={healthClient} variant="outline-secondary w-25">Clinent Site Code</Button>
+            <Button onClick={healthLive} variant="danger w-25 ms-2 me-2">Live Preview</Button>
           </div>
         </div>
         {/* Trip Toe  */}
