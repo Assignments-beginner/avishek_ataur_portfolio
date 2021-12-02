@@ -5,7 +5,10 @@ const About = () => {
   return (
     <div id="aboutme" className="pt-5 pb-5">
       <Container className="text-dark text-center">
-        <h2>About Me</h2>
+        <div data-aos="fade-left">
+          <h2>About Me</h2>
+        </div>
+
         <p className="pt-4 px-5">
           Hi there, I'm Avishek. As you may have already noticed from my resume.
           So, My superior focus and attention to detailed combined with my

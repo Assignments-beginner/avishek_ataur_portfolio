@@ -20,7 +20,10 @@ const Projects = () => {
   }; */
   return (
     <div id="projects" className="pb-5 px-5 mx-5">
-      <h2 className="text-center text-dark pb-2">Personal Projects</h2>
+      <div data-aos="fade-left">
+        <h2 className="text-center text-dark pb-2">Personal Projects</h2>
+      </div>
+
       <h4 className="text-center text-dark">
         Not Completed Yet <span className="display-4">😔</span>
       </h4>

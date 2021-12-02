@@ -28,7 +28,10 @@ const Contact = () => {
   };
   return (
     <div id="contactme" className="pt-3 pb-5 text-dark">
-      <h2 className="text-center pb-2">Contact Me</h2>
+      <div data-aos="fade-right">
+        <h2 className="text-center pb-2">Contact Me</h2>
+      </div>
+
       <Container className="p-5">
         <Row>
           <Col lg={6}>
@@ -113,12 +116,18 @@ const Contact = () => {
             </div>
             <div className="pt-4">
               {/* Phone */}
-              <div className="m-4 d-flex justify-content-center align-items-center">
+              <div
+                data-aos="fade-left"
+                className="m-4 d-flex justify-content-center align-items-center"
+              >
                 <i class="fs-4 fas fa-phone-alt text-dark"></i>&nbsp; &nbsp;
                 <span className="text-dark fs-5">01782869159</span>
               </div>
               {/* email */}
-              <div className="m-4 d-flex justify-content-center align-items-center">
+              <div
+                data-aos="fade-right"
+                className="m-4 d-flex justify-content-center align-items-center"
+              >
                 <i class="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
                 <span className="text-dark fs-5">avishekataur@gmail.com</span>
               </div>

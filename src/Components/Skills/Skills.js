@@ -14,7 +14,10 @@ const Skills = () => {
   return (
     <div id="skills" className="pt-3 pb-5">
       <Container className="text-dark">
-        <h2 className="text-center pb-2">Skills</h2>
+        <div data-aos="fade-right">
+          <h2 className="text-center pb-2">Skills</h2>
+        </div>
+
         <Row className="align-items-center">
           <Col className="p-5" sm={6}>
             {/* Skill 1*/}
