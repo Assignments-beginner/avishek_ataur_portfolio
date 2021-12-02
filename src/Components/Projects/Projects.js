@@ -14,6 +14,20 @@ const Projects = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
+  //////////////////////////////// Dronza Website ///////////////////////////////
+  const dronzaClient = () => {
+    const url = "https://github.com/Assignments-beginner/dronza-client-site";
+    window.open(url, "_blank");
+  };
+  const dronzaLive = () => {
+    const url = "https://drone-za-999.netlify.app/";
+    window.open(url, "_blank");
+  };
+  const dronzaServer = () => {
+    const url = "https://github.com/Assignments-beginner/dronza-server";
+    window.open(url, "_blank");
+  };
+
   return (
     <div id="projects" className="pb-5 px-5 mx-5">
       <div data-aos="fade-left">
@@ -31,11 +45,21 @@ const Projects = () => {
           <div className="Legend mt-3 text-dark">
             <h4 className="text-uppercase">E-Commerce Mern Stack Project</h4>
             <p>Drone Selling Website</p>
-            <Button variant="outline-secondary w-25" size="sm">
+            <Button
+              onClick={dronzaClient}
+              variant="outline-secondary w-25"
+              size="sm"
+            >
               Clinent Site Code
             </Button>
-            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
-            <Button variant="outline-secondary w-25" size="sm">
+            <Button onClick={dronzaLive} variant="danger w-25 ms-2 me-2">
+              Live Preview
+            </Button>
+            <Button
+              onClick={dronzaServer}
+              variant="outline-secondary w-25"
+              size="sm"
+            >
               Server Code
             </Button>
           </div>
