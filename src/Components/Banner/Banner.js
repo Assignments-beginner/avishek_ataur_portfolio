@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../Banner/Banner.css";
 import profile from "../../Images/Profile.jpg";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const resume = () => {
     const url =
       "https://drive.google.com/file/d/1VtNwXxNhyV4xhHvTVh6HI8UcaFaWDFY-/view?usp=sharing";
@@ -24,7 +29,9 @@ const Banner = () => {
               <div class="fadingEffect"></div>
             </div>
 
-            <h1 className="text-dark profile-name display-5">Avishek Ataur</h1>
+            <div data-aos="fade-left">
+              <h1 className="text-dark display-5">Avishek Ataur</h1>
+            </div>
 
             <p className="mt-4 pt-2">
               <strong>Hello! Everyone,</strong> <br />
