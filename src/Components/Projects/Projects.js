@@ -38,6 +38,20 @@ const Projects = () => {
     window.open(url, "_blank");
   };
 
+  //////////////////////////////// Dronza Website ///////////////////////////////
+  const tripClient = () => {
+    const url = "https://github.com/Assignments-beginner/trip_toe_client_site";
+    window.open(url, "_blank");
+  };
+  const tripLive = () => {
+    const url = "https://tour-site-mongodb-nodejs.netlify.app/";
+    window.open(url, "_blank");
+  };
+  const tripServer = () => {
+    const url = "https://github.com/Assignments-beginner/trip_toe_server";
+    window.open(url, "_blank");
+  };
+
   return (
     <div id="projects" className="pb-5 px-5 mx-5">
       <div data-aos="fade-left">
@@ -80,8 +94,12 @@ const Projects = () => {
           <div className="Legend mt-3 text-dark">
             <h4 className="text-uppercase">Simple Authentication Project</h4>
             <p>Health Care Website</p>
-            <Button onClick={healthClient} variant="outline-secondary w-25">Clinent Site Code</Button>
-            <Button onClick={healthLive} variant="danger w-25 ms-2 me-2">Live Preview</Button>
+            <Button onClick={healthClient} variant="outline-secondary w-25">
+              Clinent Site Code
+            </Button>
+            <Button onClick={healthLive} variant="danger w-25 ms-2 me-2">
+              Live Preview
+            </Button>
           </div>
         </div>
         {/* Trip Toe  */}
@@ -90,11 +108,21 @@ const Projects = () => {
           <div className="Legend mt-3 text-dark">
             <h4 className="text-uppercase">E-Commerce Mern Stack Project</h4>
             <p>Tour Agency Website</p>
-            <Button variant="outline-secondary w-25" size="sm">
+            <Button
+              onClick={tripClient}
+              variant="outline-secondary w-25"
+              size="sm"
+            >
               Clinent Site Code
             </Button>
-            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
-            <Button variant="outline-secondary w-25" size="sm">
+            <Button onClick={tripLive} variant="danger w-25 ms-2 me-2">
+              Live Preview
+            </Button>
+            <Button
+              onClick={tripServer}
+              variant="outline-secondary w-25"
+              size="sm"
+            >
               Server Code
             </Button>
           </div>
