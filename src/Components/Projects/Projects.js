@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import Slider from "react-slick";
 // import { baseUrl } from "../../baseUrl";
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   /* const settings = {
     customPaging: function (i) {
       return (

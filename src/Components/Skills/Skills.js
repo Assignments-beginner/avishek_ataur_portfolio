@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Col, Container, Row } from "react-bootstrap";
 import "../../Components/Skills/Skills.css";
 import js from "../../Images/skill_icons/js.png";
@@ -11,6 +13,9 @@ import react from "../../Images/skill_icons/react.png";
 import firebase from "../../Images/skill_icons/firebase.png";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div id="skills" className="pt-3 pb-5">
       <Container className="text-dark">

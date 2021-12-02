@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Blogs/Blogs.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blogs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="blogs">
       <div data-aos="fade-right">

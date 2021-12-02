@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import "../Contact/Contact.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
