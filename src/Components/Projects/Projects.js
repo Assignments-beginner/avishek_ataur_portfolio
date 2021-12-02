@@ -24,24 +24,51 @@ const Projects = () => {
         Not Completed Yet <span className="display-4">😔</span>
       </h4> */}
 
-      <Carousel swipeable useKeyboardArrows infiniteLoop autoPlay>
+      <Carousel infiniteLoop autoPlay>
+        {/* Dronza  */}
         <div className="d-grid justify-content-center">
           <img src={img1} alt="" />
-          <Button className="Legend" variant="danger" size="sm">
-            Details
-          </Button>
+          <div className="Legend mt-3 text-dark">
+            <h4 className="text-uppercase">E-Commerce Mern Stack Project</h4>
+            <p>Drone Selling Website</p>
+            <Button variant="outline-secondary w-25" size="sm">
+              Clinent Site Code
+            </Button>
+            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
+            <Button variant="outline-secondary w-25" size="sm">
+              Server Code
+            </Button>
+          </div>
         </div>
+        {/* Heal Clinic  */}
         <div className="d-grid justify-content-center">
           <img src={img2} alt="" />
-          <Button className="Legend" variant="danger" size="sm">
-            Details
-          </Button>
+          <div className="Legend mt-3 text-dark">
+            <h4 className="text-uppercase">Simple Authentication Project</h4>
+            <p>Health Care Website</p>
+            <Button variant="outline-secondary w-25" size="sm">
+              Clinent Site Code
+            </Button>
+            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
+            <Button variant="outline-secondary w-25" size="sm">
+              Server Code
+            </Button>
+          </div>
         </div>
+        {/* Trip Toe  */}
         <div className="d-grid justify-content-center">
           <img src={img3} alt="" />
-          <Button className="Legend" variant="danger" size="sm">
-            Details
-          </Button>
+          <div className="Legend mt-3 text-dark">
+            <h4 className="text-uppercase">E-Commerce Mern Stack Project</h4>
+            <p>Tour Agency Website</p>
+            <Button variant="outline-secondary w-25" size="sm">
+              Clinent Site Code
+            </Button>
+            <Button variant="danger w-25 ms-2 me-2">Live Preview</Button>
+            <Button variant="outline-secondary w-25" size="sm">
+              Server Code
+            </Button>
+          </div>
         </div>
       </Carousel>
     </div>
