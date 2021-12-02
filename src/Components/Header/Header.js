@@ -22,7 +22,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#aboutme"
+                to="/home#aboutme"
               >
                 About Me
               </NavLink>
@@ -31,7 +31,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#skills"
+                to="/home#skills"
               >
                 Skills
               </NavLink>
@@ -40,7 +40,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#projects"
+                to="/home#projects"
               >
                 Projects
               </NavLink>
@@ -49,7 +49,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#qualifications"
+                to="/home#qualifications"
               >
                 Qualifications
               </NavLink>
@@ -58,7 +58,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#blogs"
+                to="/home#blogs"
               >
                 Blogs
               </NavLink>
@@ -67,7 +67,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/aboutme#contactme"
+                to="/home#contactme"
               >
                 Contact
               </NavLink>

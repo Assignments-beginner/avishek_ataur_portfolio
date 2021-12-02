@@ -1,11 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Contact from "../Contact/Contact";
-import Skills from "../Skills/Skills";
 
 const About = () => {
   return (
-    <div className="pt-5 pb-5">
+    <div id="aboutme" className="pt-5 pb-5">
       <Container className="text-dark text-center">
         <h2>About Me</h2>
         <p className="pt-4 px-5">
@@ -21,9 +19,6 @@ const About = () => {
           management of company criteria.
         </p>
       </Container>
-      <Skills />
-      
-      <Contact />
     </div>
   );
 };

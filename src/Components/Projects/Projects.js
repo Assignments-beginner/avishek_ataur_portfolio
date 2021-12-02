@@ -19,7 +19,7 @@ const Projects = () => {
     slidesToScroll: 1,
   }; */
   return (
-    <div id="pojects" className="pb-5 px-5 mx-5">
+    <div id="projects" className="pb-5 px-5 mx-5">
       <h2 className="text-center text-dark pb-2">Personal Projects</h2>
       <h4 className="text-center text-dark">
         Not Completed Yet <span className="display-4">😔</span>
