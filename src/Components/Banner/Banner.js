@@ -18,7 +18,7 @@ const Banner = () => {
     <div>
       <Container className="py-3 res-top-banner">
         <Row className="align-items-center justify-content-center">
-          <Col className="d-flex justify-content-end" sm={5}>
+          <Col className="res-banner-imgdiv d-flex justify-content-end" sm={5}>
             <div className="me-5 res-banner-img">
               <img className="profile-img" src={profile} alt="" />
             </div>
