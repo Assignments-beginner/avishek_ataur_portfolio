@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <Navbar className="nav-radius" collapseOnSelect expand="lg" bg="white">
-        <Container className="p-4 mt-1">
+        <Container className="px-4 pt-4 mt-1">
           <Navbar.Brand className="d-flex align-items-center mt-2" href="#home">
             <div width="45" height="45">
               <img

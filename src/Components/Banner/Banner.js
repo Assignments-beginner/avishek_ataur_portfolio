@@ -41,31 +41,27 @@ const Banner = () => {
                 <h1 className="text-dark display-5 res-name">Avishek Ataur</h1>
               </div>
             </div>
-
-            <p className="mt-4 pt-2 banner-text-justify res-banner-intro">
-              <strong>Hello! Everyone,</strong> <br />
-              I'm a Junior Web Developer with five-plus months of experience
-              from a complete web development course of &nbsp;
-              <strong>
-                <a
-                  className="text-dark text-decoration-none"
-                  href="https://www.programming-hero.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Programming Hero
-                </a>
-              </strong>{" "}
-              which is one of the best program learning platforms in Bangladesh.
-              I'm seeking an opportunity to extend my full-stack web development
-              knowledge, especially on MERN stack projects.
-            </p>
             <div className="res-banner-intro">
-              <Button
-                onClick={resume}
-                className="mt-3"
-                variant="outline-secondary"
-              >
+              <p className="banner-text-justify">
+                <strong>Hello! Everyone,</strong> <br />
+                I'm a Junior Web Developer with five-plus months of experience
+                from a complete web development course of &nbsp;
+                <strong>
+                  <a
+                    className="text-dark text-decoration-none"
+                    href="https://www.programming-hero.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Programming Hero
+                  </a>
+                </strong>{" "}
+                which is one of the best program learning platforms in
+                Bangladesh. I'm seeking an opportunity to extend my full-stack
+                web development knowledge, especially on MERN stack projects.
+              </p>
+
+              <Button onClick={resume} variant="outline-secondary">
                 Resume
               </Button>
             </div>
