@@ -16,21 +16,23 @@ const Banner = () => {
   };
   return (
     <div>
-      <Container className="py-5">
+      <Container className="py-3 res-top-banner">
         <Row className="align-items-center justify-content-center">
           <Col className="d-flex justify-content-end" sm={5}>
-            <div className="me-5">
+            <div className="me-5 res-banner-img">
               <img className="profile-img" src={profile} alt="" />
             </div>
           </Col>
           <Col sm={7} className="text-dark">
+            <div className="res-names">
             <div className="text">
-              <h4 className="text-uppercase">Junior Web Developer</h4>
+              <h4 className="text-uppercase res-designation">Junior Web Developer</h4>
               <div className="fadingEffect"></div>
             </div>
 
             <div data-aos="fade-left">
-              <h1 className="text-dark display-5">Avishek Ataur</h1>
+              <h1 className="text-dark display-5 res-name">Avishek Ataur</h1>
+            </div>
             </div>
 
             <p className="mt-4 pt-2">
