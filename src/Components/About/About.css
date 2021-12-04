@@ -1,0 +1,24 @@
+.res-aboutme-top {
+  margin-top: 90px;
+}
+.res-aboutme-detail {
+  margin-top: 30px;
+}
+/*-------------------------------------------------------------------------------*\
+  ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\*-------------------------------------------------------------------------------*/
+
+@media all and (max-width: 688px) and (orientation: portrait) {
+  .res-aboutme-top {
+    margin-top: 50px;
+  }
+  .res-aboutme-detail {
+    margin-top: 20px;
+  }
+  .about-text-justify {
+    text-align: justify;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

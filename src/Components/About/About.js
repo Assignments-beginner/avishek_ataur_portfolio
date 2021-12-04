@@ -2,19 +2,20 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Container } from "react-bootstrap";
+import "../About/About.css";
 
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div id="aboutme" className="pt-5 pb-5">
+    <div id="aboutme" className="res-aboutme-top pb-5">
       <Container className="text-dark text-center">
         <div data-aos="fade-left">
           <h2>About Me</h2>
         </div>
 
-        <p className="pt-4 px-5">
+        <p className="about-text-justify res-aboutme-detail">
           Hi there, I'm Avishek. As you may have already noticed from my resume.
           So, My superior focus and attention to detail combined with my proper
           knowledge of Javascript, ES6, React, Firebase, Node JS, Express JS,
