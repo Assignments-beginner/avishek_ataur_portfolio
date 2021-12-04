@@ -11,7 +11,7 @@ const Banner = () => {
   }, []);
   const resume = () => {
     const url =
-      "https://drive.google.com/file/d/1bL4hUVHeas4F2YWBZbfxgZZeYju6lPnk/view?usp=sharing";
+      "https://drive.google.com/file/d/13YfmjX1EuujMW_Q0oo4tTiKsPgoQqNZl/view?usp=sharing";
     window.open(url, "_blank");
   };
   return (
@@ -25,14 +25,16 @@ const Banner = () => {
           </Col>
           <Col sm={7} className="text-dark">
             <div className="res-names">
-            <div className="text">
-              <h4 className="text-uppercase res-designation">Junior Web Developer</h4>
-              <div className="fadingEffect"></div>
-            </div>
+              <div className="text">
+                <h4 className="text-uppercase res-designation">
+                  Junior Web Developer
+                </h4>
+                <div className="fadingEffect"></div>
+              </div>
 
-            <div data-aos="fade-left">
-              <h1 className="text-dark display-5 res-name">Avishek Ataur</h1>
-            </div>
+              <div data-aos="fade-left">
+                <h1 className="text-dark display-5 res-name">Avishek Ataur</h1>
+              </div>
             </div>
 
             <p className="mt-4 pt-2 banner-text-justify res-banner-intro">
@@ -54,13 +56,13 @@ const Banner = () => {
               knowledge, especially on MERN stack projects.
             </p>
             <div className="res-banner-intro">
-            <Button
-              onClick={resume}
-              className="mt-3"
-              variant="outline-secondary"
-            >
-              Resume
-            </Button>
+              <Button
+                onClick={resume}
+                className="mt-3"
+                variant="outline-secondary"
+              >
+                Resume
+              </Button>
             </div>
           </Col>
         </Row>
