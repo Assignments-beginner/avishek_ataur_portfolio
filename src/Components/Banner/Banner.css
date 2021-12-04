@@ -103,18 +103,17 @@
   ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \*-------------------------------------------------------------------------------*/
 
-@media all and (max-width: 688px) and (orientation: portrait) {
+/* @media all and (max-width: 688px) and (orientation: portrait) { */
+@media all and (max-width: 688px) {
   .profile-img {
     height: 160px;
     width: 160px;
     border: 5px solid white;
   }
-
   .res-banner-img {
     margin-bottom: 40px;
     /* border: 1px red solid; */
   }
-
   .text {
     width: 200px;
   }
@@ -128,5 +127,14 @@
   .res-designation {
     font-size: 14px;
     text-align: center;
+  }
+  .banner-text-justify {
+    text-align: justify;
+    font-size: 15px;
+    font-size: 10px;
+  }
+  .res-banner-intro {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

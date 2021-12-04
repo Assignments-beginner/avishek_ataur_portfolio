@@ -35,7 +35,7 @@ const Banner = () => {
             </div>
             </div>
 
-            <p className="mt-4 pt-2">
+            <p className="mt-4 pt-2 banner-text-justify res-banner-intro">
               <strong>Hello! Everyone,</strong> <br />
               I'm a Junior Web Developer with five-plus months of experience
               from a complete web development course of &nbsp;
@@ -53,6 +53,7 @@ const Banner = () => {
               I'm seeking an opportunity to extend my full-stack web development
               knowledge, especially on MERN stack projects.
             </p>
+            <div className="res-banner-intro">
             <Button
               onClick={resume}
               className="mt-3"
@@ -60,6 +61,7 @@ const Banner = () => {
             >
               Resume
             </Button>
+            </div>
           </Col>
         </Row>
       </Container>
