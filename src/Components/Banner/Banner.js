@@ -16,14 +16,19 @@ const Banner = () => {
   };
   return (
     <div>
-      <Container className="py-3 res-top-banner">
+      <Container className="res-top-banner">
         <Row className="align-items-center justify-content-center">
-          <Col className="res-banner-imgdiv d-flex justify-content-end" sm={5}>
-            <div className="me-5 res-banner-img">
+          <Col
+            className="res-banner-img d-flex justify-content-center"
+            xl={5}
+            lg={5}
+            sm={6}
+          >
+            <div className="me-5">
               <img className="profile-img" src={profile} alt="" />
             </div>
           </Col>
-          <Col sm={7} className="text-dark">
+          <Col xl={7} lg={7} sm={6} className="text-dark">
             <div className="res-names">
               <div className="text">
                 <h4 className="text-uppercase res-designation">
