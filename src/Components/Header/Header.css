@@ -1,17 +1,31 @@
 .nav-radius {
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 .nav-font {
-    font-size: 15px;
+  font-size: 15px;
+}
+.navs {
+  color: #343a40;
+}
+.navs:hover {
+  color: lightskyblue;
+}
+.navs-active {
+  color: lightskyblue;
+}
+
+/*-------------------------------------------------------------------------------*\
+  ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\*-------------------------------------------------------------------------------*/
+
+@media all and (max-width: 688px) and (orientation: portrait) {
+  .res-logo {
+    width: 30px;
+    height: 30px;
   }
-  .navs {
-    color: #343a40;
+  .res-logotitle {
+    font-size: 14px;
   }
-  .navs:hover {
-    color: lightskyblue;
-  }
-  .navs-active {
-    color: lightskyblue;
-  }
+}

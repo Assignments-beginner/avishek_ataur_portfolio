@@ -24,9 +24,9 @@ const Banner = () => {
             </div>
           </Col>
           <Col sm={7} className="text-dark">
-            <div class="text">
+            <div className="text">
               <h4 className="text-uppercase">Junior Web Developer</h4>
-              <div class="fadingEffect"></div>
+              <div className="fadingEffect"></div>
             </div>
 
             <div data-aos="fade-left">

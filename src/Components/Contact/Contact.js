@@ -126,7 +126,7 @@ const Contact = () => {
                 data-aos="fade-left"
                 className="m-4 d-flex justify-content-center align-items-center"
               >
-                <i class="fs-4 fas fa-phone-alt text-dark"></i>&nbsp; &nbsp;
+                <i className="fs-4 fas fa-phone-alt text-dark"></i>&nbsp; &nbsp;
                 <span className="text-dark fs-5">01782869159</span>
               </div>
               {/* email */}
@@ -134,7 +134,7 @@ const Contact = () => {
                 data-aos="fade-right"
                 className="m-4 d-flex justify-content-center align-items-center"
               >
-                <i class="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
+                <i className="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
                 <span className="text-dark fs-5">avishekataur@gmail.com</span>
               </div>
             </div>

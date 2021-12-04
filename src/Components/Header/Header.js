@@ -9,10 +9,18 @@ const Header = () => {
       <Navbar className="nav-radius" collapseOnSelect expand="lg" bg="white">
         <Container className="p-4 mt-1">
           <Navbar.Brand className="d-flex align-items-center mt-2" href="#home">
-            <div>
-              <img width="45" height="45" src={logo} alt="" />
+            <div width="45" height="45">
+              <img
+                className="res-logo"
+                width="45"
+                height="45"
+                src={logo}
+                alt=""
+              />
             </div>
-            <h5 className="ms-2">Avishek Ataur</h5>
+            <span className="ms-2 res-logotitle text-dark">
+              <strong>Avishek Ataur</strong>
+            </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
