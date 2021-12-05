@@ -4,12 +4,12 @@ hr.new {
   margin: auto;
 }
 
-.res-follow {
-  margin-top: 50px;
+.res-phone-email {
+  font-size: 16px;
 }
 
-.res-phone-email {
-  margin-bottom: 70px;
+.res-email {
+  font-size: 21px;
 }
 
 /*-------------------------------------------------------------------------------*\
@@ -20,8 +20,10 @@ hr.new {
   .res-follow {
     margin-top: 50px;
   }
-
   .res-phone-email {
-    margin-bottom: 70px;
+    font-size: 14px;
+  }
+  .res-email {
+    font-size: 18px;
   }
 }

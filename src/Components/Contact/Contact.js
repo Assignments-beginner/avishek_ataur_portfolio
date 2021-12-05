@@ -120,22 +120,22 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="res-phone-email">
+            <div className="mt-5">
               {/* Phone */}
               <div
                 data-aos="fade-left"
-                className="m-4 d-flex justify-content-center align-items-center"
+                className="m-3 d-flex justify-content-center align-items-center"
               >
-                <i className="fs-4 fas fa-phone-alt text-dark"></i>&nbsp; &nbsp;
-                <span className="text-dark fs-5">01782869159</span>
+                <i className="res-phone-email fas fa-phone-alt text-dark res-phone-email"></i>&nbsp; &nbsp;
+                <span className="text-dark res-phone-email">01782869159</span>
               </div>
               {/* email */}
               <div
                 data-aos="fade-right"
-                className="m-4 d-flex justify-content-center align-items-center"
+                className="m-3 d-flex justify-content-center align-items-center"
               >
-                <i className="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
-                <span className="text-dark fs-5">
+                <i className="res-email fas fa-envelope text-dark"></i> &nbsp; &nbsp;
+                <span className="text-dark res-phone-email">
                   {" "}
                   <a className="text-decoration-none text-dark" href="mailto:avishekataur@gmail.com">
                     avishekataur@gmail.com

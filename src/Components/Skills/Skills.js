@@ -20,7 +20,7 @@ const Skills = () => {
     <div id="skills" className="pt-3 pb-5">
       <Container className="text-dark">
         <div data-aos="fade-right">
-          <h2 className="text-center pb-2">Skills</h2>
+          <h2 className="text-center res-skills">Skills</h2>
         </div>
 
         <Row className="align-items-center">
