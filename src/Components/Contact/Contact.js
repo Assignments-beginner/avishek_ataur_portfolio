@@ -91,7 +91,7 @@ const Contact = () => {
             </div>
           </Col>
           <Col lg={6}>
-            <div>
+            <div className="res-follow">
               <h3 className="text-center mb-3">Follow Me</h3>
               <div className="text-center">
                 <a
@@ -120,7 +120,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="pt-4 mb-5">
+            <div className="res-phone-email">
               {/* Phone */}
               <div
                 data-aos="fade-left"

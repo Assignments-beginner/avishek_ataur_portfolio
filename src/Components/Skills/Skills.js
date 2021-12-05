@@ -146,7 +146,7 @@ const Skills = () => {
               </div>
             </div>
           </Col>
-          <Col className="p-5" sm={6}>
+          <Col className="p-5 res-skills-list" sm={6}>
             <li>
               Comfortable with Javascript, ES6, React, Firebase, Node JS,
               Express JS, MongoDB for making e-commerce projects.

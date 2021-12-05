@@ -3,3 +3,25 @@ hr.new {
   width: 70%;
   margin: auto;
 }
+
+.res-follow {
+  margin-top: 50px;
+}
+
+.res-phone-email {
+  margin-bottom: 70px;
+}
+
+/*-------------------------------------------------------------------------------*\
+  ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\*-------------------------------------------------------------------------------*/
+
+@media all and (max-width: 688px) {
+  .res-follow {
+    margin-top: 50px;
+  }
+
+  .res-phone-email {
+    margin-bottom: 70px;
+  }
+}
