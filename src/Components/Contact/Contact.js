@@ -135,7 +135,12 @@ const Contact = () => {
                 className="m-4 d-flex justify-content-center align-items-center"
               >
                 <i className="fs-3 fas fa-envelope text-dark"></i> &nbsp; &nbsp;
-                <span className="text-dark fs-5">avishekataur@gmail.com</span>
+                <span className="text-dark fs-5">
+                  {" "}
+                  <a className="text-decoration-none text-dark" href="mailto:avishekataur@gmail.com">
+                    avishekataur@gmail.com
+                  </a>{" "}
+                </span>
               </div>
             </div>
           </Col>
