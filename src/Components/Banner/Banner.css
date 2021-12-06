@@ -5,6 +5,10 @@
   border: 15px solid white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.res-banner-img {
+  display: flex;
+  justify-content: center;
+}
 .res-top-banner {
   margin-top: 70px;
 }

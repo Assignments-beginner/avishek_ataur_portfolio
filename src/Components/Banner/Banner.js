@@ -17,14 +17,14 @@ const Banner = () => {
   return (
     <div>
       <Container className="res-top-banner">
-        <Row className="align-items-center justify-content-center">
+        <Row className="align-items-center">
           <Col
-            className="res-banner-img d-flex justify-content-center"
+            className="res-banner-img"
             xl={5}
             lg={5}
             sm={6}
           >
-            <div className="me-5">
+            <div>
               <img className="profile-img" src={profile} alt="" />
             </div>
           </Col>
