@@ -112,7 +112,6 @@
   ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \*-------------------------------------------------------------------------------*/
 
-/* @media all and (max-width: 688px) and (orientation: portrait) { */
 @media all and (max-width: 688px) {
   .res-top-banner {
     margin-top: 0px;

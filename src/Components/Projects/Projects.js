@@ -7,7 +7,7 @@ import img1 from "../../Images/slides/abstract01.jpg";
 import img2 from "../../Images/slides/abstract02.jpg";
 import img3 from "../../Images/slides/abstract03.jpg";
 import "../Projects/Projects.css";
-import { Button, ButtonGroup } from "react-bootstrap";
+import { Button, ButtonGroup, Card, Container } from "react-bootstrap";
 
 const Projects = () => {
   useEffect(() => {
@@ -53,7 +53,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="pb-5 px-5 mx-5">
+    <div id="projects" className="pb-5">
       <div data-aos="fade-left">
         <h2 className="text-center text-dark pb-5">Personal Projects</h2>
       </div>
@@ -62,7 +62,7 @@ const Projects = () => {
         Not Completed Yet <span className="display-4">😔</span>
       </h4> */}
 
-      <Carousel infiniteLoop autoPlay>
+      <Carousel infiniteLoop autoPlay className="res-carousel">
         {/* Dronza  */}
         <div className="d-grid justify-content-center">
           <img src={img1} alt="" />
@@ -128,6 +128,117 @@ const Projects = () => {
           </div>
         </div>
       </Carousel>
+      <Container className="res-mobile-cards">
+        {/* Dronza  */}
+        <Card className="text-center">
+          <Card.Header className="text-uppercase text-dark">
+            E-Commerce Mern Stack Project
+          </Card.Header>
+          <Card.Body>
+            <Card.Img variant="top" src={img1} />
+            <Card.Text className="text-dark m-2">
+              Drone Selling Website
+            </Card.Text>
+            <div className="d-grid justify-content-center">
+              <Button
+                onClick={dronzaClient}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Clinent Site Code
+              </Button>
+
+              <Button
+                onClick={dronzaServer}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Server Code
+              </Button>
+            </div>
+          </Card.Body>
+          <Card.Footer>
+            <a
+              className="text-uppercase text-danger text-decoration-none"
+              href="https://drone-za-999.netlify.app/"
+            >
+              live preview
+            </a>
+          </Card.Footer>
+        </Card>
+        {/* Heal Clinic  */}
+        <Card className="text-center">
+          <Card.Header className="text-uppercase text-dark">
+            E-Commerce Mern Stack Project
+          </Card.Header>
+          <Card.Body>
+            <Card.Img variant="top" src={img1} />
+            <Card.Text className="text-dark m-2">
+              Drone Selling Website
+            </Card.Text>
+            <div className="d-grid justify-content-center">
+              <Button
+                onClick={dronzaClient}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Clinent Site Code
+              </Button>
+
+              <Button
+                onClick={dronzaServer}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Server Code
+              </Button>
+            </div>
+          </Card.Body>
+          <Card.Footer>
+            <a
+              className="text-uppercase text-danger text-decoration-none"
+              href="https://drone-za-999.netlify.app/"
+            >
+              live preview
+            </a>
+          </Card.Footer>
+        </Card>
+        {/* Trip Toe  */}
+        <Card className="text-center">
+          <Card.Header className="text-uppercase text-dark">
+            E-Commerce Mern Stack Project
+          </Card.Header>
+          <Card.Body>
+            <Card.Img variant="top" src={img3} />
+            <Card.Text className="text-dark m-2">Tour Agency Website</Card.Text>
+            <div className="d-grid justify-content-center">
+              <Button
+                onClick={tripClient}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Clinent Site Code
+              </Button>
+
+              <Button
+                onClick={tripServer}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Server Code
+              </Button>
+            </div>
+          </Card.Body>
+          <Card.Footer>
+            <a
+              className="text-uppercase text-danger text-decoration-none"
+              href="https://tour-site-mongodb-nodejs.netlify.app/"
+            >
+              live preview
+            </a>
+          </Card.Footer>
+        </Card>
+      </Container>
     </div>
   );
 };
