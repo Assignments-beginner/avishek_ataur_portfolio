@@ -167,44 +167,34 @@ const Projects = () => {
           </Card.Footer>
         </Card>
         {/* Heal Clinic  */}
-        <Card className="text-center">
+        <Card className="text-center mt-4">
           <Card.Header className="text-uppercase text-dark">
-            E-Commerce Mern Stack Project
+            SIMPLE AUTHENTICATION PROJECT
           </Card.Header>
           <Card.Body>
-            <Card.Img variant="top" src={img1} />
-            <Card.Text className="text-dark m-2">
-              Drone Selling Website
-            </Card.Text>
+            <Card.Img variant="top" src={img2} />
+            <Card.Text className="text-dark m-2">Health Care Website</Card.Text>
             <div className="d-grid justify-content-center">
               <Button
-                onClick={dronzaClient}
+                onClick={healthClient}
                 variant="outline-danger px-3 py-2 m-1"
                 size="sm"
               >
                 Clinent Site Code
-              </Button>
-
-              <Button
-                onClick={dronzaServer}
-                variant="outline-danger px-3 py-2 m-1"
-                size="sm"
-              >
-                Server Code
               </Button>
             </div>
           </Card.Body>
           <Card.Footer>
             <a
               className="text-uppercase text-danger text-decoration-none"
-              href="https://drone-za-999.netlify.app/"
+              href="https://health-care-999.netlify.app/"
             >
               live preview
             </a>
           </Card.Footer>
         </Card>
         {/* Trip Toe  */}
-        <Card className="text-center">
+        <Card className="text-center mt-4">
           <Card.Header className="text-uppercase text-dark">
             E-Commerce Mern Stack Project
           </Card.Header>
