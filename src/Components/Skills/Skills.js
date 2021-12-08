@@ -158,7 +158,7 @@ const Skills = () => {
             </li>
             <br />
             <li>
-              A bit familiar with React Native, Redux, Next.js, Material UI and
+              A bit familiar with JSON Web Token (JWT), React Native, Redux, Next.js, Material UI and
               SASS.
             </li>
             <br />
