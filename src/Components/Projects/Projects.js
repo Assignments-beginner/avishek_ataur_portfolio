@@ -7,7 +7,7 @@ import img1 from "../../Images/slides/abstract01.jpg";
 import img2 from "../../Images/slides/abstract02.jpg";
 import img3 from "../../Images/slides/abstract03.jpg";
 import "../Projects/Projects.css";
-import { Button, ButtonGroup, Card, Container } from "react-bootstrap";
+import { Button, Card, Container } from "react-bootstrap";
 
 const Projects = () => {
   useEffect(() => {
