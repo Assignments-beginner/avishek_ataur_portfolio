@@ -1,0 +1,26 @@
+.qualifications {
+    height: 100vh;
+  }
+  .res-qualifications-top {
+    margin-top: 50px;
+  }
+  
+  .res-qualifications-header {
+      font-size: 55px;
+      font-weight: lighter;
+    }
+  
+  /*-------------------------------------------------------------------------------*\
+    ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \*-------------------------------------------------------------------------------*/
+  
+  @media all and (max-width: 688px) {
+    .res-qualifications-top {
+      margin-top: 20px;
+    }
+    .res-qualifications-header {
+      font-size: 20px;
+      font-weight: lighter;
+    }
+  }
+  

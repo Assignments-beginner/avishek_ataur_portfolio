@@ -1,20 +1,22 @@
 import React, { useEffect } from "react";
-import "../Blogs/Blogs.css";
+import "../Qualifications/Qualifications.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Blogs = () => {
+const Qualifications = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="blogs">
+    <div className="qualifications">
       <div data-aos="fade-right">
-        <h2 className="text-dark text-center res-blog-top pb-2">Blog</h2>
+        <h2 className="text-dark text-center res-qualifications-top pb-2">
+          Qualifications
+        </h2>
       </div>
       <div data-aos="fade-left">
-        <h1 className="text-center text-uppercase text-dark mt-5 res-blog-header">
-          coming soon...
+        <h1 className="text-center text-uppercase text-dark mt-5 res-qualifications-header">
+          Not updated yet...
         </h1>
       </div>
       <div>
@@ -27,4 +29,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Qualifications;

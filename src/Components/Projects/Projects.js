@@ -53,7 +53,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="pb-5">
+    <div id="projects" className="mx-5 pb-5">
       <div data-aos="fade-left">
         <h2 className="text-center text-dark pb-5">Personal Projects</h2>
       </div>

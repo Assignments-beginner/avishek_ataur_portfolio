@@ -57,7 +57,7 @@ const Header = () => {
                 as={HashLink}
                 activeclassname="navs-active"
                 className="navs me-3 text-decoration-none"
-                to="/home#qualifications"
+                to="/qualifications"
               >
                 Qualifications
               </NavLink>
