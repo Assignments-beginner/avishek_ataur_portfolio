@@ -154,7 +154,7 @@ const Skills = () => {
             <br />
             <li>
               Very used to working with popular css framework Bootstrap and
-              Tailwind.
+              Tailwind. Also regular works with React libraries such as React Router, React Hook Form, React Router Hash Link etc.
             </li>
             <br />
             <li>
