@@ -1,11 +1,11 @@
 import React from "react";
 import "../Css/Css.css";
-import p1 from "../Css/css_img/barca/p1.webp";
-import p2 from "../Css/css_img/barca/p2.webp";
-import p3 from "../Css/css_img/barca/p3.webp";
-import player1 from "../Css/css_img/Players/Player1.webp";
-import player2 from "../Css/css_img/Players/Player2.webp";
-import player3 from "../Css/css_img/Players/Player3.webp";
+import p1 from "../../../Images/css_img/barca/p1.webp";
+import p2 from "../../../Images/css_img/barca/p2.webp";
+import p3 from "../../../Images/css_img/barca/p3.webp";
+import player1 from "../../../Images/css_img/Players/Player1.webp";
+import player2 from "../../../Images/css_img/Players/Player2.jpg";
+import player3 from "../../../Images/css_img/Players/Player3.jpg";
 
 const Css = () => {
   return (

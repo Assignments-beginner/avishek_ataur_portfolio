@@ -1,14 +1,11 @@
-.blogs {
-  height: 100vh;
-}
 .res-blog-top {
   margin-top: 50px;
 }
 
 .res-blog-header {
-    font-size: 55px;
-    font-weight: lighter;
-  }
+  font-size: 55px;
+  font-weight: lighter;
+}
 
 /*-------------------------------------------------------------------------------*\
   ///////////////////////////// media query \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

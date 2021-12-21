@@ -19,33 +19,37 @@ const Blogs = () => {
           coming soon...
         </h1>
       </div> */}
-      <Container className="px-5">
+      <Container className="px-5 pb-5">
         <Row>
+          {/* CSS  */}
           <Col xl={3} lg={3} sm={12}>
-            <Card>
-              <Card.Img variant="top" src={cssThumbnail} />
+            <Card className="shadow">
+              <Card.Img
+                width="230"
+                height="230"
+                variant="top"
+                src={cssThumbnail}
+              />
               <Card.Body>
                 <Card.Title className="text-dark text-center">
-                  Card title
+                  CSS Grid Layout With Transform-Transition And Positon
                 </Card.Title>
-                <Card.Text className="text-dark text-center">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-                <Button size="sm" variant="secondary">
-                  Details
-                </Button>
+                <div className="text-center">
+                  <Button size="sm" variant="secondary">
+                    Details
+                  </Button>
+                </div>
               </Card.Body>
               <Card.Footer className="text-secondary text-center">
                 <small>12 / 21 / 2021</small>
               </Card.Footer>
             </Card>
           </Col>
+          {/* Javascript  */}
         </Row>
       </Container>
       {/* footer */}
-      <div>
+      <div className="pb-5 ">
         <hr className="new mt-5" />
         <p className="mt-2 text-secondary text-center text-uppercase">
           Avishek Ataur
