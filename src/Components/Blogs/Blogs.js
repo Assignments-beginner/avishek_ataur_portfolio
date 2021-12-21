@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import cssThumbnail from "../../Images/css_img/css_thumbnail.png";
+import jsThumbnail from "../../Images/Blogs/js_blog.png";
 
 const Blogs = () => {
   useEffect(() => {
@@ -12,6 +13,11 @@ const Blogs = () => {
   const css = () => {
     const url =
       "https://docs.google.com/document/d/1apeuWthbZGuO-rgkYWz71S_JppInc2LPHHNg8SOTWLw/edit?usp=sharing";
+    window.open(url, "_blank");
+  };
+  const js = () => {
+    const url =
+      "https://docs.google.com/document/d/1yTZef3XkeWf2FgEaSGtDO32shnhj1GEqb_yEKHdUV3A/edit?usp=sharing";
     window.open(url, "_blank");
   };
   return (
@@ -27,7 +33,7 @@ const Blogs = () => {
       <Container className="px-5 pb-5">
         <Row>
           {/* CSS  */}
-          <Col xl={3} lg={3} sm={12}>
+          <Col className="d-flex align-items-stretch" xl={3} lg={3} sm={12}>
             <Card className="shadow">
               <Card.Img
                 width="230"
@@ -40,7 +46,12 @@ const Blogs = () => {
                   CSS Grid Layout With Transform-Transition And Positon
                 </Card.Title>
                 <div className="text-center">
-                  <Button onClick={css} size="sm" variant="secondary">
+                  <Button
+                    className="mt-3"
+                    onClick={css}
+                    size="sm"
+                    variant="secondary"
+                  >
                     Details
                   </Button>
                 </div>
@@ -51,6 +62,34 @@ const Blogs = () => {
             </Card>
           </Col>
           {/* Javascript  */}
+          <Col className="d-flex align-items-stretch" xl={3} lg={3} sm={12}>
+            <Card className="shadow">
+              <Card.Img
+                width="230"
+                height="230"
+                variant="top"
+                src={jsThumbnail}
+              />
+              <Card.Body>
+                <Card.Title className="text-dark text-center">
+                  Few Javascript Concepts Let's Check Them Out
+                </Card.Title>
+                <div className="text-center">
+                  <Button
+                    className="mt-3"
+                    onClick={js}
+                    size="sm"
+                    variant="secondary"
+                  >
+                    Details
+                  </Button>
+                </div>
+              </Card.Body>
+              <Card.Footer className="text-secondary text-center">
+                <small>12 / 21 / 2021</small>
+              </Card.Footer>
+            </Card>
+          </Col>
         </Row>
       </Container>
       {/* footer */}
