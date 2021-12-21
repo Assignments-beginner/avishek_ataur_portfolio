@@ -1,0 +1,101 @@
+/*-------------------------------------------------------------------------------*\
+    //////////////////////////////// in-Frame \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \*-------------------------------------------------------------------------------*/
+.container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-column-gap: 30px;
+}
+.frame {
+  width: 350px;
+  height: 250px;
+  border: 3px solid tomato;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 350px;
+  height: 250px;
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+  /* display: none; */
+  width: 400px;
+}
+.info h1 {
+  color: goldenrod;
+  font-weight: bolder;
+  line-height: 0;
+  font-size: 45px;
+}
+.info h3 {
+  color: white;
+  font-weight: bolder;
+}
+
+.frame:hover .info {
+  display: block;
+  cursor: pointer;
+  background-color: #ff000083;
+}
+
+.frame:hover .photo {
+  transform: scale(1.3);
+  transition: transform 4s linear;
+}
+
+/*-------------------------------------------------------------------------------*\
+    //////////////////////////// Without-Frame \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \*-------------------------------------------------------------------------------*/
+.container-2 {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-column-gap: 70px;
+}
+.frame-2 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.photo-2 img {
+  width: 200px;
+  height: 300px;
+}
+
+.info-2 {
+  position: absolute;
+  bottom: 20px;
+  /* display: none; */
+  width: 200px;
+}
+.info-2 h2 {
+  color: goldenrod;
+  font-weight: bolder;
+  line-height: 0;
+}
+.info-2 h3 {
+  color: white;
+  font-weight: bolder;
+}
+
+.frame-2:hover .info-2 {
+  display: block;
+  cursor: pointer;
+  background-color: #ff000083;
+  border: 1px solid goldenrod;
+}
+
+.frame-2:hover .photo-2 {
+  transform: scale(1.06);
+  transition: transform 1s linear;
+}
