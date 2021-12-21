@@ -3,12 +3,17 @@ import "../Blogs/Blogs.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
-import cssThumbnail from "../Blogs/Css/css_img/css_thumbnail.png";
+import cssThumbnail from "../../Images/css_img/css_thumbnail.png";
 
 const Blogs = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  const css = () => {
+    const url =
+      "https://docs.google.com/document/d/1apeuWthbZGuO-rgkYWz71S_JppInc2LPHHNg8SOTWLw/edit?usp=sharing";
+    window.open(url, "_blank");
+  };
   return (
     <div className="blogs">
       <div data-aos="fade-right">
@@ -35,7 +40,7 @@ const Blogs = () => {
                   CSS Grid Layout With Transform-Transition And Positon
                 </Card.Title>
                 <div className="text-center">
-                  <Button size="sm" variant="secondary">
+                  <Button onClick={css} size="sm" variant="secondary">
                     Details
                   </Button>
                 </div>
