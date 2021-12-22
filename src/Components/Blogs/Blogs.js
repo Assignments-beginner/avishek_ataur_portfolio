@@ -6,6 +6,7 @@ import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import cssThumbnail from "../../Images/css_img/css_thumbnail.png";
 import jsThumbnail from "../../Images/Blogs/js_blog.png";
 import es6Thumbnail from "../../Images/Blogs/es6_blog.png";
+import reactThumbnail from "../../Images/Blogs/react_blog.png";
 
 const Blogs = () => {
   useEffect(() => {
@@ -24,6 +25,11 @@ const Blogs = () => {
   const es6 = () => {
     const url =
       "https://docs.google.com/document/d/14LT0-C1Bymlw0BvIkmgM4ZrQBaIDSrNBshdtj6F9pac/edit?usp=sharing";
+    window.open(url, "_blank");
+  };
+  const react = () => {
+    const url =
+      "https://docs.google.com/document/d/1gcICpzhlhzEEXE21OOimMCnZO8peu2vResN0xN4jCHQ/edit?usp=sharing";
     window.open(url, "_blank");
   };
   return (
@@ -122,6 +128,35 @@ const Blogs = () => {
               </Card.Body>
               <Card.Footer className="text-secondary text-center">
                 <small>12 / 15 / 2021</small>
+              </Card.Footer>
+            </Card>
+          </Col>
+          {/* React  */}
+          <Col className="d-flex align-items-stretch" xl={3} lg={3} sm={12}>
+            <Card className="shadow">
+              <Card.Img
+                width="230"
+                height="230"
+                variant="top"
+                src={reactThumbnail}
+              />
+              <Card.Body>
+                <Card.Title className="text-dark text-center">
+                  Most Important React Basic Concepts We Should Know
+                </Card.Title>
+                <div className="text-center">
+                  <Button
+                    className="mt-3"
+                    onClick={react}
+                    size="sm"
+                    variant="secondary"
+                  >
+                    Details
+                  </Button>
+                </div>
+              </Card.Body>
+              <Card.Footer className="text-secondary text-center">
+                <small>12 / 22 / 2021</small>
               </Card.Footer>
             </Card>
           </Col>
