@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import cssThumbnail from "../../Images/css_img/css_thumbnail.png";
 import jsThumbnail from "../../Images/Blogs/js_blog.png";
+import es6Thumbnail from "../../Images/Blogs/es6_blog.png";
 
 const Blogs = () => {
   useEffect(() => {
@@ -18,6 +19,11 @@ const Blogs = () => {
   const js = () => {
     const url =
       "https://docs.google.com/document/d/1yTZef3XkeWf2FgEaSGtDO32shnhj1GEqb_yEKHdUV3A/edit?usp=sharing";
+    window.open(url, "_blank");
+  };
+  const es6 = () => {
+    const url =
+      "https://docs.google.com/document/d/14LT0-C1Bymlw0BvIkmgM4ZrQBaIDSrNBshdtj6F9pac/edit?usp=sharing";
     window.open(url, "_blank");
   };
   return (
@@ -57,7 +63,7 @@ const Blogs = () => {
                 </div>
               </Card.Body>
               <Card.Footer className="text-secondary text-center">
-                <small>12 / 21 / 2021</small>
+                <small>09 / 21 / 2021</small>
               </Card.Footer>
             </Card>
           </Col>
@@ -86,7 +92,36 @@ const Blogs = () => {
                 </div>
               </Card.Body>
               <Card.Footer className="text-secondary text-center">
-                <small>12 / 21 / 2021</small>
+                <small>11 / 15 / 2021</small>
+              </Card.Footer>
+            </Card>
+          </Col>
+          {/* ES6  */}
+          <Col className="d-flex align-items-stretch" xl={3} lg={3} sm={12}>
+            <Card className="shadow">
+              <Card.Img
+                width="230"
+                height="230"
+                variant="top"
+                src={es6Thumbnail}
+              />
+              <Card.Body>
+                <Card.Title className="text-dark text-center">
+                  Interesting Javascript ES6 Concepts And Methods
+                </Card.Title>
+                <div className="text-center">
+                  <Button
+                    className="mt-3"
+                    onClick={es6}
+                    size="sm"
+                    variant="secondary"
+                  >
+                    Details
+                  </Button>
+                </div>
+              </Card.Body>
+              <Card.Footer className="text-secondary text-center">
+                <small>12 / 15 / 2021</small>
               </Card.Footer>
             </Card>
           </Col>
