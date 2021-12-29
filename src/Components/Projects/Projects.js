@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import img1 from "../../Images/slides/abstract01.jpg";
 import img2 from "../../Images/slides/abstract02.jpg";
-import img3 from "../../Images/slides/abstract03.jpg";
+import img3 from "../../Images/slides/abstract03.png";
 import "../Projects/Projects.css";
 import { Button, Card, Container } from "react-bootstrap";
 
@@ -13,6 +13,16 @@ const Projects = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
+  //////////////////////////////// Android App ///////////////////////////////
+  const quizappClient = () => {
+    const url = "https://github.com/avishekataur/quizapp";
+    window.open(url, "_blank");
+  };
+  const quizappLive = () => {
+    const url = "https://expo.dev/@avishekataur/quiz-pro";
+    window.open(url, "_blank");
+  };
 
   //////////////////////////////// Dronza Website ///////////////////////////////
   const dronzaClient = () => {
@@ -38,20 +48,6 @@ const Projects = () => {
     window.open(url, "_blank");
   };
 
-  //////////////////////////////// Dronza Website ///////////////////////////////
-  const tripClient = () => {
-    const url = "https://github.com/Assignments-beginner/trip_toe_client_site";
-    window.open(url, "_blank");
-  };
-  const tripLive = () => {
-    const url = "https://tour-site-mongodb-nodejs.netlify.app/";
-    window.open(url, "_blank");
-  };
-  const tripServer = () => {
-    const url = "https://github.com/Assignments-beginner/trip_toe_server";
-    window.open(url, "_blank");
-  };
-
   return (
     <div id="projects" className="pb-5">
       <div data-aos="fade-left">
@@ -63,6 +59,20 @@ const Projects = () => {
       </h4> */}
 
       <Carousel infiniteLoop autoPlay className="mx-5 px-5 res-carousel">
+        {/* Android App  */}
+        <div className="d-grid justify-content-center">
+          <img src={img3} alt="" />
+          <div className="Legend mt-3 text-dark">
+            <h4 className="text-uppercase">Simple React Native App</h4>
+            <p>Basic Quiz App</p>
+            <Button onClick={quizappClient} variant="outline-secondary w-25">
+              Check Code
+            </Button>
+            <Button onClick={quizappLive} variant="danger w-25 ms-2 me-2">
+              Live Preview
+            </Button>
+          </div>
+        </div>
         {/* Dronza  */}
         <div className="d-grid justify-content-center">
           <img src={img1} alt="" />
@@ -102,33 +112,36 @@ const Projects = () => {
             </Button>
           </div>
         </div>
-        {/* Trip Toe  */}
-        <div className="d-grid justify-content-center">
-          <img src={img3} alt="" />
-          <div className="Legend mt-3 text-dark">
-            <h4 className="text-uppercase">E-Commerce Mern Stack Project</h4>
-            <p>Tour Agency Website</p>
-            <Button
-              onClick={tripClient}
-              variant="outline-secondary w-25"
-              size="sm"
-            >
-              Clinent Site Code
-            </Button>
-            <Button onClick={tripLive} variant="danger w-25 ms-2 me-2">
-              Live Preview
-            </Button>
-            <Button
-              onClick={tripServer}
-              variant="outline-secondary w-25"
-              size="sm"
-            >
-              Server Code
-            </Button>
-          </div>
-        </div>
       </Carousel>
+      {/* ////////////////////////// Mobile Cards \\\\\\\\\\\\\\\\\\\\\\\\\\\\ */}
       <Container className="res-mobile-cards">
+        {/* Heal Clinic  */}
+        <Card className="text-center mt-4">
+          <Card.Header className="text-uppercase text-dark">
+            SIMPLE AUTHENTICATION PROJECT
+          </Card.Header>
+          <Card.Body>
+            <Card.Img variant="top" src={img2} />
+            <Card.Text className="text-dark m-2">Health Care Website</Card.Text>
+            <div className="d-grid justify-content-center">
+              <Button
+                onClick={healthClient}
+                variant="outline-danger px-3 py-2 m-1"
+                size="sm"
+              >
+                Clinent Site Code
+              </Button>
+            </div>
+          </Card.Body>
+          <Card.Footer>
+            <a
+              className="text-uppercase text-danger text-decoration-none"
+              href="https://health-care-999.netlify.app/"
+            >
+              live preview
+            </a>
+          </Card.Footer>
+        </Card>
         {/* Dronza  */}
         <Card className="text-center">
           <Card.Header className="text-uppercase text-dark">
@@ -188,41 +201,6 @@ const Projects = () => {
             <a
               className="text-uppercase text-danger text-decoration-none"
               href="https://health-care-999.netlify.app/"
-            >
-              live preview
-            </a>
-          </Card.Footer>
-        </Card>
-        {/* Trip Toe  */}
-        <Card className="text-center mt-4">
-          <Card.Header className="text-uppercase text-dark">
-            E-Commerce Mern Stack Project
-          </Card.Header>
-          <Card.Body>
-            <Card.Img variant="top" src={img3} />
-            <Card.Text className="text-dark m-2">Tour Agency Website</Card.Text>
-            <div className="d-grid justify-content-center">
-              <Button
-                onClick={tripClient}
-                variant="outline-danger px-3 py-2 m-1"
-                size="sm"
-              >
-                Clinent Site Code
-              </Button>
-
-              <Button
-                onClick={tripServer}
-                variant="outline-danger px-3 py-2 m-1"
-                size="sm"
-              >
-                Server Code
-              </Button>
-            </div>
-          </Card.Body>
-          <Card.Footer>
-            <a
-              className="text-uppercase text-danger text-decoration-none"
-              href="https://tour-site-mongodb-nodejs.netlify.app/"
             >
               live preview
             </a>
