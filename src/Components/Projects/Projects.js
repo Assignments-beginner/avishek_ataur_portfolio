@@ -3,8 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import img1 from "../../Images/slides/abstract01.jpg";
-import img2 from "../../Images/slides/abstract02.jpg";
+import img1 from "../../Images/slides/abstract01.png";
+import img2 from "../../Images/slides/abstract02.png";
 import img3 from "../../Images/slides/abstract03.png";
 import "../Projects/Projects.css";
 import { Button, Card, Container } from "react-bootstrap";
@@ -115,28 +115,28 @@ const Projects = () => {
       </Carousel>
       {/* ////////////////////////// Mobile Cards \\\\\\\\\\\\\\\\\\\\\\\\\\\\ */}
       <Container className="res-mobile-cards">
-        {/* Heal Clinic  */}
+        {/* Android App  */}
         <Card className="text-center mt-4">
           <Card.Header className="text-uppercase text-dark">
-            SIMPLE AUTHENTICATION PROJECT
+            Simple React native app
           </Card.Header>
           <Card.Body>
-            <Card.Img variant="top" src={img2} />
-            <Card.Text className="text-dark m-2">Health Care Website</Card.Text>
+            <Card.Img variant="top" src={img3} />
+            <Card.Text className="text-dark m-2">Basic Quiz App</Card.Text>
             <div className="d-grid justify-content-center">
               <Button
-                onClick={healthClient}
+                onClick={quizappClient}
                 variant="outline-danger px-3 py-2 m-1"
                 size="sm"
               >
-                Clinent Site Code
+                Check Code
               </Button>
             </div>
           </Card.Body>
           <Card.Footer>
             <a
               className="text-uppercase text-danger text-decoration-none"
-              href="https://health-care-999.netlify.app/"
+              href="https://expo.dev/@avishekataur/quiz-pro"
             >
               live preview
             </a>
