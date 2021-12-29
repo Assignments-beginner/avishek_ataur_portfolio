@@ -116,7 +116,7 @@ const Projects = () => {
       {/* ////////////////////////// Mobile Cards \\\\\\\\\\\\\\\\\\\\\\\\\\\\ */}
       <Container className="res-mobile-cards">
         {/* Android App  */}
-        <Card className="text-center mt-4">
+        <Card className="text-center mb-4">
           <Card.Header className="text-uppercase text-dark">
             Simple React native app
           </Card.Header>
@@ -142,6 +142,7 @@ const Projects = () => {
             </a>
           </Card.Footer>
         </Card>
+
         {/* Dronza  */}
         <Card className="text-center">
           <Card.Header className="text-uppercase text-dark">
