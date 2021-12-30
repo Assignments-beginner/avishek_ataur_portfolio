@@ -25,12 +25,14 @@ const Qualifications = () => {
         </h1>
       </div> */}
       {/* BUBT  */}
-      <Container className="d-flex justify-content-center mt-5">
-        <Row className="d-flex justify-content-center align-items-center"> 
-          <Col className="d-flex justify-content-center align-items-center">
+      <Container className="d-flex justify-content-center px-5 mt-5">
+        <Row className="d-flex justify-content-center align-items-center">
+          <Col xl={4} lg={4} className="q-logos-align">
             <div className="q-logos">
               <img src={bubt} alt="" />
             </div>
+          </Col>
+          <Col xl={8} lg={8} className="px-3">
             <div>
               <h5 className="text-dark">
                 Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
