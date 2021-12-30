@@ -57,12 +57,12 @@ const Qualifications = () => {
           </Col>
         </Row>
       </Container>
-      {/* KPI */}
+      {/* Programming Hero */}
       <Container className="d-flex justify-content-center px-5 mt-5">
         <Row className="d-flex justify-content-center align-items-center">
           <Col xl={4} lg={4} className="q-logos-align">
             <a
-              href="https://www.bubt.edu.bd/"
+              href="https://www.programming-hero.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,34 +89,34 @@ const Qualifications = () => {
           </Col>
         </Row>
       </Container>
-      {/* Programming Hero  */}
+      {/* KPI */}
       <Container className="d-flex justify-content-center px-5 mt-5">
         <Row className="d-flex justify-content-center align-items-center">
           <Col xl={4} lg={4} className="q-logos-align">
             <a
-              href="https://www.bubt.edu.bd/"
+              href="https://www.kushtiapi.gov.bd/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="q-logos">
-                <img src={bubt} alt="" />
+                <img src={kpi} alt="" />
               </div>
             </a>
           </Col>
           <Col xl={8} lg={8} className="px-3">
             <div>
               <p className="text-dark q-text">
-                Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
-                TECHNOLOGY&nbsp;
+                Completed Diploma Engineering on Computer Science from
+                Govt.&nbsp;
                 <a
                   className="text-decoration-none"
-                  href="https://www.bubt.edu.bd/"
+                  href="https://www.kushtiapi.gov.bd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  (BUBT)
+                  (KPI)
                 </a>
-                &nbsp;(2018)
+                &nbsp; Bangladesh (2016)
               </p>
             </div>
           </Col>
