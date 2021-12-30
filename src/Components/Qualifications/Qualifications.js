@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import "../Qualifications/Qualifications.css";
-import { Card, Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import bubt from "../../Images/Q_Logos/BUBT.png";
+import kpi from "../../Images/Q_Logos/KPI.png";
+import ph from "../../Images/Q_Logos/PH.png";
 
 const Qualifications = () => {
   useEffect(() => {
@@ -22,15 +25,18 @@ const Qualifications = () => {
         </h1>
       </div> */}
       <Container className="d-flex justify-content-center mt-5">
-        <Row>
-          <Col>
-            <div className="text-dark">
-              <h3>BUBT Logo</h3>
+        <Row className="d-flex justify-content-center align-items-center">
+          <Col xl={4} lg={4} className="d-flex justify-content-end">
+            <div className="q-logos">
+              <img src={bubt} alt="" />
             </div>
           </Col>
-          <Col>
-            <div className="text-dark">
-              <h3>Details</h3>
+          <Col xl={8} lg={8} className="d-flex justify-content-start">
+            <div>
+              <h5 className="text-dark">
+                Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
+                TECHNOLOGY (BUBT) (2018)
+              </h5>
             </div>
           </Col>
         </Row>
