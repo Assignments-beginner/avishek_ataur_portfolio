@@ -43,4 +43,11 @@
     display: flex;
     justify-content: center;
   }
+  .q-text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .q-logos {
+    margin-bottom: 20px;
+  }
 }

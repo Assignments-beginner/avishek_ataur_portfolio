@@ -34,7 +34,7 @@ const Qualifications = () => {
           </Col>
           <Col xl={8} lg={8} className="px-3">
             <div>
-              <h5 className="text-dark">
+              <h5 className="text-dark q-text">
                 Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
                 TECHNOLOGY (BUBT) (2018)
               </h5>
