@@ -193,7 +193,7 @@ const Blogs = () => {
         </Row>
       </Container>
       {/* footer */}
-      <div className="pb-5 ">
+      <div className="pb-5">
         <hr className="new mt-5" />
         <p className="mt-2 text-secondary text-center text-uppercase">
           Avishek Ataur

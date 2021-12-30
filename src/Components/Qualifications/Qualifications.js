@@ -24,14 +24,13 @@ const Qualifications = () => {
           Not updated yet...
         </h1>
       </div> */}
+      {/* BUBT  */}
       <Container className="d-flex justify-content-center mt-5">
         <Row className="d-flex justify-content-center align-items-center">
-          <Col xl={4} lg={4} className="d-flex justify-content-end">
+          <Col className="d-flex justify-content-center align-items-center">
             <div className="q-logos">
               <img src={bubt} alt="" />
             </div>
-          </Col>
-          <Col xl={8} lg={8} className="d-flex justify-content-start">
             <div>
               <h5 className="text-dark">
                 Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
@@ -41,8 +40,12 @@ const Qualifications = () => {
           </Col>
         </Row>
       </Container>
+      {/* KPI */}
+
+      {/* Programming Hero  */}
+
       {/* Footer  */}
-      <div>
+      <div className="pb-5 pt-5">
         <hr className="new mt-5" />
         <p className="mt-2 text-secondary text-center text-uppercase">
           Avishek Ataur
