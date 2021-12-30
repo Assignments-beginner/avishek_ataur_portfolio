@@ -26,7 +26,7 @@ const Qualifications = () => {
       </div> */}
       {/* BUBT  */}
       <Container className="d-flex justify-content-center mt-5">
-        <Row className="d-flex justify-content-center align-items-center">
+        <Row className="d-flex justify-content-center align-items-center"> 
           <Col className="d-flex justify-content-center align-items-center">
             <div className="q-logos">
               <img src={bubt} alt="" />
