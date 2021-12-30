@@ -60,12 +60,11 @@ const Blogs = () => {
                 src={cssThumbnail}
               />
               <Card.Body>
-                <Card.Title className="text-dark text-center">
-                  CSS Grid Layout With Transform-Transition And Positon
-                </Card.Title>
+                <Card.Text className="cardText text-dark text-center">
+                  CSS Grid Layout Transform Transition Positon
+                </Card.Text>
                 <div className="text-center">
                   <Button
-                    className="mt-3"
                     onClick={css}
                     size="sm"
                     variant="secondary"
@@ -89,12 +88,11 @@ const Blogs = () => {
                 src={jsThumbnail}
               />
               <Card.Body>
-                <Card.Title className="text-dark text-center">
+                <Card.Text className="cardText text-dark text-center">
                   Few Javascript Concepts Let's Check Them Out
-                </Card.Title>
+                </Card.Text>
                 <div className="text-center">
                   <Button
-                    className="mt-3"
                     onClick={js}
                     size="sm"
                     variant="secondary"
@@ -118,12 +116,11 @@ const Blogs = () => {
                 src={es6Thumbnail}
               />
               <Card.Body>
-                <Card.Title className="text-dark text-center">
+                <Card.Text className="cardText text-dark text-center">
                   Interesting Javascript ES6 Concepts And Methods
-                </Card.Title>
+                </Card.Text>
                 <div className="text-center">
                   <Button
-                    className="mt-3"
                     onClick={es6}
                     size="sm"
                     variant="secondary"
@@ -147,12 +144,11 @@ const Blogs = () => {
                 src={reactThumbnail}
               />
               <Card.Body>
-                <Card.Title className="text-dark text-center">
+                <Card.Text className="cardText text-dark text-center">
                   Most Important React Basic Concepts We Should Know
-                </Card.Title>
+                </Card.Text>
                 <div className="text-center">
                   <Button
-                    className="mt-3"
                     onClick={react}
                     size="sm"
                     variant="secondary"
@@ -176,12 +172,11 @@ const Blogs = () => {
                 src={backendThumbnail}
               />
               <Card.Body>
-                <Card.Title className="text-dark text-center">
+                <Card.Text className="cardText text-dark text-center">
                   Some Basic Web Database Concepts And Terms
-                </Card.Title>
+                </Card.Text>
                 <div className="text-center">
                   <Button
-                    className="mt-3"
                     onClick={mongo}
                     size="sm"
                     variant="secondary"
