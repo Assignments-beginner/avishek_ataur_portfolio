@@ -24,6 +24,7 @@ const Qualifications = () => {
           Not updated yet...
         </h1>
       </div> */}
+
       {/* BUBT  */}
       <Container className="d-flex justify-content-center px-5 mt-5">
         <Row className="d-flex justify-content-center align-items-center">
@@ -39,21 +40,19 @@ const Qualifications = () => {
             </a>
           </Col>
           <Col xl={8} lg={8} className="px-3">
-            <div>
-              <p className="text-dark q-text">
-                Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
-                TECHNOLOGY&nbsp;
-                <a
-                  className="text-decoration-none"
-                  href="https://www.bubt.edu.bd/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  (BUBT)
-                </a>
-                &nbsp;(2018)
-              </p>
-            </div>
+            <p className="text-dark q-text">
+              Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
+              TECHNOLOGY&nbsp;
+              <a
+                className="text-decoration-none"
+                href="https://www.bubt.edu.bd/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (BUBT)
+              </a>
+              &nbsp;(2018).
+            </p>
           </Col>
         </Row>
       </Container>
@@ -72,20 +71,18 @@ const Qualifications = () => {
             </a>
           </Col>
           <Col xl={8} lg={8} className="px-3">
-            <div>
-              <p className="text-dark q-text">
-                Programmin Hero&nbsp;
-                <a
-                  className="text-decoration-none"
-                  href="https://www.programming-hero.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  (Certificate)
-                </a>
-                &nbsp;(2022) Coming Soon
-              </p>
-            </div>
+            <p className="text-dark q-text">
+              Completed&nbsp;
+              <a
+                className="text-decoration-none"
+                href="https://www.programming-hero.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Programmin Hero
+              </a>
+              &nbsp;Web Development Course (2021) certificate coming soon.
+            </p>
           </Col>
         </Row>
       </Container>
@@ -104,21 +101,18 @@ const Qualifications = () => {
             </a>
           </Col>
           <Col xl={8} lg={8} className="px-3">
-            <div>
-              <p className="text-dark q-text">
-                Completed Diploma Engineering on Computer Science from
-                Govt.&nbsp;
-                <a
-                  className="text-decoration-none"
-                  href="https://www.kushtiapi.gov.bd/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  (KPI)
-                </a>
-                &nbsp; Bangladesh (2016)
-              </p>
-            </div>
+            <p className="text-dark q-text">
+              Completed Diploma Engineering on Computer Science from Govt.&nbsp;
+              <a
+                className="text-decoration-none"
+                href="https://www.kushtiapi.gov.bd/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (KPI)
+              </a>
+              &nbsp; Bangladesh (2016).
+            </p>
           </Col>
         </Row>
       </Container>
