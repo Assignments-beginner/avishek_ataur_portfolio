@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../Qualifications/Qualifications.css";
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import bubt from "../../Images/Q_Logos/BUBT.png";
@@ -58,9 +58,70 @@ const Qualifications = () => {
         </Row>
       </Container>
       {/* KPI */}
-
+      <Container className="d-flex justify-content-center px-5 mt-5">
+        <Row className="d-flex justify-content-center align-items-center">
+          <Col xl={4} lg={4} className="q-logos-align">
+            <a
+              href="https://www.bubt.edu.bd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="q-logos">
+                <img src={ph} alt="" />
+              </div>
+            </a>
+          </Col>
+          <Col xl={8} lg={8} className="px-3">
+            <div>
+              <p className="text-dark q-text">
+                Programmin Hero&nbsp;
+                <a
+                  className="text-decoration-none"
+                  href="https://www.programming-hero.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  (Certificate)
+                </a>
+                &nbsp;(2022) Coming Soon
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
       {/* Programming Hero  */}
-
+      <Container className="d-flex justify-content-center px-5 mt-5">
+        <Row className="d-flex justify-content-center align-items-center">
+          <Col xl={4} lg={4} className="q-logos-align">
+            <a
+              href="https://www.bubt.edu.bd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="q-logos">
+                <img src={bubt} alt="" />
+              </div>
+            </a>
+          </Col>
+          <Col xl={8} lg={8} className="px-3">
+            <div>
+              <p className="text-dark q-text">
+                Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
+                TECHNOLOGY&nbsp;
+                <a
+                  className="text-decoration-none"
+                  href="https://www.bubt.edu.bd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  (BUBT)
+                </a>
+                &nbsp;(2018)
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
       {/* Footer  */}
       <div className="pb-5 pt-5">
         <hr className="new mt-5" />
