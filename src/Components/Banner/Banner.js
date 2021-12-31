@@ -11,19 +11,14 @@ const Banner = () => {
   }, []);
   const resume = () => {
     const url =
-      "https://drive.google.com/file/d/1_VnMPZNjdJx3HDxKqd4fUxQCDTlLqboC/view?usp=sharing";
+      "https://drive.google.com/file/d/14Wmw5VQ5vhw0sftPfZwhp18d3svYkEgl/view?usp=sharing";
     window.open(url, "_blank");
   };
   return (
     <div>
       <Container className="res-top-banner">
         <Row className="align-items-center">
-          <Col
-            className="res-banner-img"
-            xl={5}
-            lg={5}
-            sm={6}
-          >
+          <Col className="res-banner-img" xl={5} lg={5} sm={6}>
             <div>
               <img className="profile-img" src={profile} alt="" />
             </div>
