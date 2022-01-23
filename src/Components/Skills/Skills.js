@@ -46,9 +46,9 @@ const Skills = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "80%", backgroundColor: "#343a40" }}
+                  style={{ width: "85%", backgroundColor: "#343a40" }}
                 >
-                  80%
+                  85%
                 </div>
               </div>
               <div className="skills-img">
@@ -91,9 +91,9 @@ const Skills = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "60%", backgroundColor: "#343a40" }}
+                  style={{ width: "75%", backgroundColor: "#343a40" }}
                 >
-                  60%
+                  75%
                 </div>
               </div>
               <div className="skills-img">
@@ -106,9 +106,9 @@ const Skills = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#343a40" }}
+                  style={{ width: "95%", backgroundColor: "#343a40" }}
                 >
-                  90%
+                  95%
                 </div>
               </div>
               <div className="skills-img">
@@ -121,9 +121,9 @@ const Skills = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#343a40" }}
+                  style={{ width: "95%", backgroundColor: "#343a40" }}
                 >
-                  90%
+                  95%
                 </div>
               </div>
               <div className="skills-img">
@@ -136,9 +136,9 @@ const Skills = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#343a40" }}
+                  style={{ width: "95%", backgroundColor: "#343a40" }}
                 >
-                  90%
+                  95%
                 </div>
               </div>
               <div className="skills-img">
