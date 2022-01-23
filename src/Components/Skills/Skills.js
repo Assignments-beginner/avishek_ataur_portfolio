@@ -158,8 +158,8 @@ const Skills = () => {
             </li>
             <br />
             <li>
-              A bit familiar with JSON Web Token (JWT), React Native, Redux, Next.js, Material UI and
-              SASS.
+              A bit familiar with React Native, Material UI, JSON Web Token (JWT) and Stripe Payment System. 
+              {/* Redux, Next.js, Material UI and SASS. */}
             </li>
             <br />
             <li>
