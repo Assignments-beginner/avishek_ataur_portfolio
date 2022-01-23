@@ -11,7 +11,7 @@ const Banner = () => {
   }, []);
   const resume = () => {
     const url =
-      "https://drive.google.com/file/d/14Wmw5VQ5vhw0sftPfZwhp18d3svYkEgl/view?usp=sharing";
+      "https://drive.google.com/file/d/1oDXhqqLvcvfL84DlZiTSG1UVC8aeMeTC/view?usp=sharing";
     window.open(url, "_blank");
   };
   return (
@@ -51,7 +51,7 @@ const Banner = () => {
                     Programming Hero
                   </a>
                 </strong>{" "}
-                which is one of the best program learning platforms in
+                which is one of the best program learning platform in
                 Bangladesh. I'm seeking an opportunity to extend my full-stack
                 web development knowledge, especially on MERN stack projects.
               </p>
