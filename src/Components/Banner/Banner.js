@@ -39,7 +39,7 @@ const Banner = () => {
             <div className="res-banner-intro">
               <p className="banner-text-justify">
                 <strong>Hello! Everyone,</strong> <br />
-                I'm a Junior Web Developer with five-plus months of experience
+                I'm a Junior Web Developer with half year of experience
                 from a complete web development course of &nbsp;
                 <strong>
                   <a
