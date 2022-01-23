@@ -17,7 +17,7 @@ const Skills = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div id="skills" className="pt-3 pb-5">
+    <div id="skills" className="pt-3 pb-3">
       <Container className="text-dark">
         <div data-aos="fade-right">
           <h2 className="text-center res-skills">Skills</h2>

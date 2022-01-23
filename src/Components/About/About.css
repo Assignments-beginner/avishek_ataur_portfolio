@@ -1,5 +1,5 @@
 .res-aboutme-top {
-  margin-top: 90px;
+  margin-top: 70px;
 }
 .res-aboutme-detail {
   margin-top: 30px;
@@ -10,7 +10,7 @@
 
 @media all and (max-width: 688px) and (orientation: portrait) {
   .res-aboutme-top {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .res-aboutme-detail {
     margin-top: 20px;

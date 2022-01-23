@@ -9,7 +9,7 @@ const About = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div id="aboutme" className="res-aboutme-top pb-5">
+    <div id="aboutme" className="res-aboutme-top pt-3 pb-5">
       <Container className="text-dark text-center">
         <div data-aos="fade-left">
           <h2>About Me</h2>
