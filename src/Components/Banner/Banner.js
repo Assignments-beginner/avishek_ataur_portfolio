@@ -7,7 +7,7 @@ import profile from "../../Images/Profile.jpg";
 
 const Banner = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 4000 });
   }, []);
   const resume = () => {
     const url =
@@ -32,7 +32,7 @@ const Banner = () => {
                 <div className="fadingEffect"></div>
               </div>
 
-              <div data-aos="fade-left">
+              <div data-aos="zoom-in">
                 <h1 className="text-dark display-5 res-name">Avishek Ataur</h1>
               </div>
             </div>
