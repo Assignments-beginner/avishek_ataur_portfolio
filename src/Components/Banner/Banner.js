@@ -11,7 +11,7 @@ const Banner = () => {
   }, []);
   const resume = () => {
     const url =
-      "https://drive.google.com/file/d/1oDXhqqLvcvfL84DlZiTSG1UVC8aeMeTC/view?usp=sharing";
+      "https://drive.google.com/file/d/1n0u1NC8w0bssXrBmviTi31k51-d2izbz/view?usp=sharing";
     window.open(url, "_blank");
   };
   return (
