@@ -72,16 +72,35 @@ const Qualifications = () => {
           </Col>
           <Col xl={8} lg={8} className="px-3">
             <p className="text-dark q-text">
-              <strong><a className="text-decoration-none text-dark" href="https://drive.google.com/file/d/1EpV_7zkopQZEkjQFZ14l1nTN1zzUuWDA/view?usp=sharing">Blackbelt</a></strong> Certified Jr. MERN Stack Web Developer (2021) Of&nbsp;
+              <strong>
+                <a
+                  className="text-decoration-none text-dark"
+                  href="https://drive.google.com/file/d/1EpV_7zkopQZEkjQFZ14l1nTN1zzUuWDA/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blackbelt
+                </a>
+              </strong>{" "}
+              Certified{" "}
+              <a
+                className="text-dark"
+                href="https://drive.google.com/file/d/1IIW-HtqVjHp5UE90vdTM63p4zFvI7F2T/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jr. MERN Stack Web Developer (2022)
+              </a>{" "}
+              Of&nbsp;
               <a
                 className="text-decoration-none"
                 href="https://www.programming-hero.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Programmin Hero
-              </a>.
-              
+                Programming Hero
+              </a>
+              .
             </p>
           </Col>
         </Row>

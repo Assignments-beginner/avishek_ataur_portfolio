@@ -8,7 +8,7 @@ const Header = () => {
     <div>
       <Navbar className="nav-radius" collapseOnSelect expand="lg" bg="white">
         <Container className="px-4 pt-4 mt-1">
-          <Navbar.Brand className="d-flex align-items-center mt-2" href="#home">
+          <Navbar.Brand className="d-flex align-items-center mt-2" href="/home">
             <div width="45" height="45">
               <img
                 className="res-logo"
