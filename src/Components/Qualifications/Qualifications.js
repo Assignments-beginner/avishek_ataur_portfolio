@@ -72,7 +72,7 @@ const Qualifications = () => {
           </Col>
           <Col xl={8} lg={8} className="px-3">
             <p className="text-dark q-text">
-              Completed&nbsp;
+              <strong><a className="text-decoration-none text-dark" href="https://drive.google.com/file/d/1EpV_7zkopQZEkjQFZ14l1nTN1zzUuWDA/view?usp=sharing">Blackbelt</a></strong> Certified Jr. MERN Stack Web Developer (2021) Of&nbsp;
               <a
                 className="text-decoration-none"
                 href="https://www.programming-hero.com/"
@@ -80,8 +80,8 @@ const Qualifications = () => {
                 rel="noopener noreferrer"
               >
                 Programmin Hero
-              </a>
-              &nbsp;Web Development Course (2021) certificate coming soon.
+              </a>.
+              
             </p>
           </Col>
         </Row>

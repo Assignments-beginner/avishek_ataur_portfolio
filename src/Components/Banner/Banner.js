@@ -26,9 +26,9 @@ const Banner = () => {
           <Col xl={7} lg={7} sm={6} className="text-dark">
             <div className="res-names">
               <div className="text">
-                <h4 className="text-uppercase res-designation">
-                  Junior Web Developer
-                </h4>
+                <h5 className="text-uppercase res-designation">
+                Jr. MERN Stack Developer
+                </h5>
                 <div className="fadingEffect"></div>
               </div>
 
