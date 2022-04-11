@@ -100,7 +100,15 @@ const Qualifications = () => {
               >
                 Programming Hero
               </a>
-              .
+              &nbsp; /{" "}
+              <a
+                className="text-decoration-none"
+                href="https://drive.google.com/file/d/1-FLJ1UoB8cs19F1jzYrpNyA_qTAgqxzX/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Recommendation Letter
+              </a>
             </p>
           </Col>
         </Row>

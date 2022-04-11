@@ -7,6 +7,7 @@ import js from "../../Images/skill_icons/js.png";
 import mongo from "../../Images/skill_icons/mongo.png";
 import express from "../../Images/skill_icons/express.jpg";
 import bootstrap from "../../Images/skill_icons/bootstrap.png";
+import tailwind from "../../Images/skill_icons/tailwind.png";
 import css from "../../Images/skill_icons/css.png";
 import html from "../../Images/skill_icons/html.png";
 import react from "../../Images/skill_icons/react.png";
@@ -145,6 +146,21 @@ const Skills = () => {
                 <img width="40" height="40" src={bootstrap} alt="" />
               </div>
             </div>
+            {/* Skill 9*/}
+            <div className="skills-div d-flex justify-content-between align-items-center mb-2">
+              <div className="progress w-75">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  style={{ width: "95%", backgroundColor: "#343a40" }}
+                >
+                  95%
+                </div>
+              </div>
+              <div className="skills-img">
+                <img width="40" height="40" src={tailwind} alt="" />
+              </div>
+            </div>
           </Col>
           <Col className="p-5 res-skills-list" sm={6}>
             <li>
@@ -154,11 +170,13 @@ const Skills = () => {
             <br />
             <li>
               Very used to working with popular css framework Bootstrap and
-              Tailwind. Also regular works with React libraries such as React Router, React Hook Form, React Router Hash Link etc.
+              Tailwind. Also regular works with React libraries such as React
+              Router, React Hook Form, React Router Hash Link etc.
             </li>
             <br />
             <li>
-              A bit familiar with React Native, Material UI, JSON Web Token (JWT) and Stripe Payment System. 
+              A bit familiar with React Native, Material UI, JSON Web Token
+              (JWT) and Stripe Payment System.
               {/* Redux, Next.js, Material UI and SASS. */}
             </li>
             <br />
