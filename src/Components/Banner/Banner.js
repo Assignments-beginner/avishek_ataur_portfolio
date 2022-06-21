@@ -27,7 +27,7 @@ const Banner = () => {
             <div className="res-names">
               <div className="text">
                 <h5 className="text-uppercase res-designation">
-                Jr. MERN Stack Developer
+                  Jr. Frontend Developer
                 </h5>
                 <div className="fadingEffect"></div>
               </div>
@@ -39,21 +39,9 @@ const Banner = () => {
             <div className="res-banner-intro">
               <p className="banner-text-justify">
                 <strong>Hello! Everyone,</strong> <br />
-                I'm a Junior Web Developer with half year of experience
-                from a complete web development course of &nbsp;
-                <strong>
-                  <a
-                    className="text-dark text-decoration-none"
-                    href="https://www.programming-hero.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Programming Hero
-                  </a>
-                </strong>{" "}
-                which is one of the best program learning platform in
-                Bangladesh. I'm seeking an opportunity to extend my full-stack
-                web development knowledge, especially on MERN stack projects.
+                I'm seeking an opportunity to extend my one year experienced
+                React JS frontend web development knowledge, especially on MERN stack
+                projects.
               </p>
 
               <Button onClick={resume} variant="outline-secondary">

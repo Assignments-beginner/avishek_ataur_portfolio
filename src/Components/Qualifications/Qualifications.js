@@ -41,7 +41,7 @@ const Qualifications = () => {
           </Col>
           <Col xl={8} lg={8} className="px-3">
             <p className="text-dark q-text">
-              Started BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
+              Completed BSc (CSE) at BANGLADESH UNIVERSITY OF BUSINESS AND
               TECHNOLOGY&nbsp;
               <a
                 className="text-decoration-none"
@@ -51,7 +51,7 @@ const Qualifications = () => {
               >
                 (BUBT)
               </a>
-              &nbsp;(2018).
+              &nbsp;(2022).
             </p>
           </Col>
         </Row>
